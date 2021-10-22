@@ -1,0 +1,718 @@
+2021-10-22 08:27:26.631 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:26.645 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:26.645 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:26.646 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:26.647 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:26.648 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:26.649 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 08:27:26.649 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 08:27:26.649 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 08:27:26.649 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 08:27:26.650 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 08:27:26.650 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 08:27:26.653 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:26.654 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:28.190 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:28.191 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:28.191 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:28.342 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 08:27:28.612 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 08:27:28.614 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 08:27:28.616 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]
+2021-10-22 08:27:28.617 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 08:27:28.617 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 08:27:28.618 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 08:27:28.618 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 08:27:37.060 [main-146] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-22 08:27:48.008 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:48.012 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:48.013 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:48.013 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:48.014 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:48.014 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:48.015 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 08:27:48.015 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 08:27:48.015 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 08:27:48.016 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 08:27:48.016 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 08:27:48.016 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 08:27:48.020 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:48.020 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:53.536 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:53.537 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:53.538 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:27:53.718 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 08:27:53.988 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 08:27:53.990 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 08:27:53.992 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]
+2021-10-22 08:27:53.993 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 08:27:53.993 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 08:27:53.994 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 08:27:53.994 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 08:27:56.762 [main-136] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%内推 BAT
+2021-10-22 08:27:56.762 [main-137] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%*******By.id: search-term
+2021-10-22 08:27:57.508 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！
+2021-10-22 08:27:57.508 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：内推 BAT
+2021-10-22 08:28:00.676 [main-146] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-22 08:49:52.173 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:49:52.176 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:49:52.177 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:49:52.178 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:49:52.178 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:49:52.179 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:49:52.179 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 08:49:52.179 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 08:49:52.180 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 08:49:52.180 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 08:49:52.180 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 08:49:52.180 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 08:49:52.184 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:49:52.184 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:49:53.642 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:49:53.643 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:49:53.644 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 08:49:53.805 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 08:49:54.068 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 08:49:54.070 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 08:49:54.073 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]
+2021-10-22 08:49:54.073 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 08:49:54.073 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 08:49:54.074 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 08:49:54.074 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 08:49:59.433 [main-136] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%内推 BAT
+2021-10-22 08:49:59.434 [main-137] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%*******By.id: search-term
+2021-10-22 08:50:00.182 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！
+2021-10-22 08:50:00.182 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：内推 BAT
+2021-10-22 08:50:00.183 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=null}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 08:50:03.329 [main-146] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-22 09:22:32.044 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:22:32.048 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:22:32.049 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:22:32.049 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:22:32.050 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:22:32.050 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:22:32.051 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 09:22:32.051 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 09:22:32.051 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 09:22:32.051 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 09:22:32.052 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 09:22:32.052 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 09:22:32.056 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:22:32.057 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:22:33.634 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:22:33.635 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:22:33.636 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:22:33.781 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 09:22:34.063 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 09:22:34.064 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 09:22:34.067 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]
+2021-10-22 09:22:34.068 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 09:22:34.068 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 09:22:34.068 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 09:22:34.069 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 09:22:35.828 [main-139] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%内推 BAT
+2021-10-22 09:22:35.829 [main-140] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%*******By.id: search-term
+2021-10-22 09:22:36.567 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！
+2021-10-22 09:22:36.567 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：内推 BAT
+2021-10-22 09:22:36.568 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=null}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 09:22:39.724 [main-146] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-22 09:23:28.506 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:23:28.510 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:23:28.511 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:23:28.512 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:23:28.512 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:23:28.513 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:23:28.513 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 09:23:28.513 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 09:23:28.514 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 09:23:28.514 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 09:23:28.514 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 09:23:28.514 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 09:23:28.518 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:23:28.519 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:23:30.061 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:23:30.062 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:23:30.063 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:23:30.217 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 09:23:30.481 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod——1,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 09:23:30.482 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 09:23:30.485 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]
+2021-10-22 09:23:30.486 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 09:23:30.486 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 09:23:30.487 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 09:23:30.487 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 09:23:31.806 [main-139] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%内推 BAT
+2021-10-22 09:23:31.807 [main-140] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%*******By.id: search-term
+2021-10-22 09:23:32.520 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！
+2021-10-22 09:23:32.520 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：内推 BAT
+2021-10-22 09:23:32.521 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod-2,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=null}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 09:23:35.668 [main-146] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-22 09:28:40.784 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:28:40.788 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:28:40.789 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:28:40.789 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:28:40.790 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:28:40.790 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:28:40.791 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 09:28:40.791 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 09:28:40.791 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 09:28:40.791 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 09:28:40.792 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 09:28:40.792 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 09:28:40.796 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:28:40.797 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:28:42.287 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:28:42.287 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:28:42.288 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:28:42.428 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 09:28:42.705 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod——1,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 09:28:42.707 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 09:28:42.710 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]
+2021-10-22 09:28:42.710 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 09:28:42.711 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 09:28:42.711 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 09:28:42.712 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 09:28:44.072 [main-139] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%内推 BAT
+2021-10-22 09:28:44.073 [main-140] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%*******By.id: search-term
+2021-10-22 09:28:44.795 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！
+2021-10-22 09:28:44.796 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：内推 BAT
+2021-10-22 09:28:44.797 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod-2,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=null}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 09:28:47.942 [main-146] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-22 09:30:03.672 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:30:03.676 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:30:03.677 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:30:03.677 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:30:03.678 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:30:03.678 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:30:03.679 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 09:30:03.679 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 09:30:03.680 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 09:30:03.680 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 09:30:03.680 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 09:30:03.680 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 09:30:03.686 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:30:03.687 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:30:05.275 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:30:05.276 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:30:05.276 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:30:05.478 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 09:30:05.745 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod——1,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 09:30:05.747 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 09:30:05.750 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]
+2021-10-22 09:30:05.750 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 09:30:05.751 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 09:30:05.751 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 09:30:05.751 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 09:30:07.110 [main-139] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%内推 BAT
+2021-10-22 09:30:07.110 [main-140] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%*******By.id: search-term
+2021-10-22 09:30:07.818 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！
+2021-10-22 09:30:07.819 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：内推 BAT
+2021-10-22 09:30:07.820 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod-2,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=null}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 09:30:10.970 [main-146] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-22 09:37:10.595 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:37:10.599 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:37:10.599 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:37:10.600 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:37:10.600 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:37:10.601 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:37:10.601 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 09:37:10.601 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 09:37:10.602 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 09:37:10.602 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 09:37:10.602 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 09:37:10.602 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 09:37:10.606 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:37:10.607 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:37:12.091 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:37:12.092 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:37:12.093 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:37:12.248 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 09:37:12.510 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod——1,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 09:37:12.512 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 09:37:12.515 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]
+2021-10-22 09:37:12.516 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 09:37:12.516 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 09:37:12.516 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 09:37:12.517 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 09:37:13.908 [main-139] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%内推 BAT
+2021-10-22 09:37:13.910 [main-140] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%*******By.id: search-term
+2021-10-22 09:37:14.617 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！
+2021-10-22 09:37:14.617 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：内推 BAT
+2021-10-22 09:37:14.618 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod-2,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 09:37:14.619 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 09:37:14.619 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]
+2021-10-22 09:37:14.620 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 09:37:14.620 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 09:37:14.621 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 09:37:14.621 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 09:37:15.764 [main-139] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%内推 BAT
+2021-10-22 09:37:15.765 [main-140] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%*******By.id: search-term
+2021-10-22 09:37:16.480 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！
+2021-10-22 09:37:16.488 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：内推 BAT
+2021-10-22 09:37:19.655 [main-146] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-22 09:43:34.111 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:43:34.115 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:43:34.116 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:43:34.116 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:43:34.117 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:43:34.117 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:43:34.118 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 09:43:34.118 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 09:43:34.118 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 09:43:34.118 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 09:43:34.119 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 09:43:34.119 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 09:43:34.123 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:43:34.124 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:43:35.645 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:43:35.646 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:43:35.647 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:43:35.806 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 09:43:39.161 [main-146] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-22 09:46:46.016 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:46:46.020 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:46:46.021 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:46:46.021 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:46:46.022 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:46:46.022 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:46:46.023 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 09:46:46.023 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 09:46:46.023 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 09:46:46.024 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 09:46:46.024 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 09:46:46.024 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 09:46:46.028 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:46:46.028 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:46:47.526 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:46:47.527 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:46:47.528 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:46:47.676 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 09:46:51.031 [main-146] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-22 09:48:13.064 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:13.069 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:13.069 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:13.070 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:13.070 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:13.071 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:13.071 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 09:48:13.072 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 09:48:13.072 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 09:48:13.072 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 09:48:13.072 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 09:48:13.073 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 09:48:13.076 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:13.077 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:14.589 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:14.590 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:14.591 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:14.747 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 09:48:18.105 [main-146] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-22 09:48:41.166 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:41.170 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:41.171 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:41.172 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:41.172 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:41.173 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:41.173 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 09:48:41.173 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 09:48:41.174 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 09:48:41.174 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 09:48:41.174 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 09:48:41.174 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 09:48:41.178 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:41.179 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:42.769 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:42.770 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:42.771 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:48:42.926 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 09:48:46.273 [main-146] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-22 09:50:02.832 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:50:02.836 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:50:02.836 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:50:02.837 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:50:02.837 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:50:02.838 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:50:02.838 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 09:50:02.839 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 09:50:02.839 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 09:50:02.839 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 09:50:02.840 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 09:50:02.840 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 09:50:02.844 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:50:02.844 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:50:04.411 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:50:04.412 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:50:04.413 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:50:04.589 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 09:50:04.879 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod——1,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 09:50:04.881 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 09:50:04.887 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]
+2021-10-22 09:50:04.888 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 09:50:04.888 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 09:50:04.889 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 09:50:04.889 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 09:50:06.435 [main-139] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%内推 BAT
+2021-10-22 09:50:06.435 [main-140] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%*******By.id: search-term
+2021-10-22 09:50:07.155 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！
+2021-10-22 09:50:07.155 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：内推 BAT
+2021-10-22 09:50:07.156 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod-2,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]}, {asserts=[{actual=getText}, {matcher=equalTo}, {expect=新闻}, {reason=定位成功！}]}]
+2021-10-22 09:50:07.156 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 09:50:07.157 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]
+2021-10-22 09:50:07.157 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 09:50:07.158 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 09:50:07.158 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 09:50:07.158 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 09:50:07.853 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：
+2021-10-22 09:50:07.854 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：新闻
+2021-10-22 09:50:11.045 [main-146] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-22 09:52:12.495 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:52:12.500 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:52:12.501 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:52:12.501 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:52:12.502 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:52:12.502 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:52:12.503 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 09:52:12.503 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 09:52:12.503 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 09:52:12.504 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 09:52:12.504 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 09:52:12.504 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 09:52:12.508 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:52:12.509 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:52:14.097 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:52:14.098 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:52:14.099 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:52:14.279 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 09:52:14.547 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod——1,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 09:52:14.549 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 09:52:14.552 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]
+2021-10-22 09:52:14.552 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 09:52:14.553 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 09:52:14.553 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 09:52:14.553 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 09:52:15.904 [main-139] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%内推 BAT
+2021-10-22 09:52:15.904 [main-140] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%*******By.id: search-term
+2021-10-22 09:52:16.614 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！
+2021-10-22 09:52:16.615 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：内推 BAT
+2021-10-22 09:52:16.616 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod-2,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]}, {asserts=[{actual=getText}, {matcher=equalTo}, {expect=新闻}, {reason=定位失败！}]}]
+2021-10-22 09:52:16.616 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 09:52:16.617 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]
+2021-10-22 09:52:16.617 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 09:52:16.618 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 09:52:16.618 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 09:52:16.618 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 09:52:17.203 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：
+2021-10-22 09:52:17.203 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：新闻
+2021-10-22 09:56:33.446 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:56:33.451 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:56:33.451 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:56:33.452 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:56:33.452 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:56:33.453 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:56:33.453 [main-42] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserName=chrome
+2021-10-22 09:56:33.453 [main-43] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - terminal=pc
+2021-10-22 09:56:33.454 [main-44] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - deviceName=desktop
+2021-10-22 09:56:33.454 [main-45] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remotePort=4444
+2021-10-22 09:56:33.454 [main-46] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - remoteIP=
+2021-10-22 09:56:33.454 [main-47] INFO  com.framework.basetest.BaseTestCaseInit.<clinit> - browserVersion=
+2021-10-22 09:56:33.458 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:56:33.459 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:56:34.936 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:56:34.938 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:56:34.938 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 09:56:35.081 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 09:56:35.349 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod——1,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 09:56:35.350 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 09:56:35.353 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]
+2021-10-22 09:56:35.354 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 09:56:35.355 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 09:56:35.355 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 09:56:35.355 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 09:56:36.803 [main-139] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%内推 BAT
+2021-10-22 09:56:36.804 [main-140] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%*******By.id: search-term
+2021-10-22 09:56:37.532 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！
+2021-10-22 09:56:37.533 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：内推 BAT
+2021-10-22 09:56:37.533 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_searchMethod-2,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]}, {asserts=[{actual=getText}, {matcher=equalTo}, {expect=新闻}, {reason=定位失败！}]}]
+2021-10-22 09:56:37.534 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 09:56:37.534 [main-76] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]
+2021-10-22 09:56:37.535 [main-74] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 09:56:37.535 [main-75] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 09:56:37.535 [main-94] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 09:56:37.536 [main-96] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 09:56:38.114 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：新闻
+2021-10-22 09:56:38.114 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：新闻
+2021-10-22 20:41:00.409 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:41:00.414 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:41:00.415 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:41:00.416 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:41:00.416 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:41:00.417 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:41:00.417 [main-97] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
+2021-10-22 20:41:00.417 [main-98] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
+2021-10-22 20:41:00.417 [main-99] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
+2021-10-22 20:41:00.418 [main-100] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
+2021-10-22 20:41:00.418 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
+2021-10-22 20:41:00.418 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
+2021-10-22 20:41:00.425 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:41:00.425 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:41:02.225 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:41:02.226 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:41:02.226 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:41:02.377 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 20:41:02.378 [main-36] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPage.init - Starting
+2021-10-22 20:42:12.350 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:42:12.354 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:42:12.355 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:42:12.355 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:42:12.356 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:42:12.356 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:42:12.357 [main-97] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
+2021-10-22 20:42:12.357 [main-98] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
+2021-10-22 20:42:12.357 [main-99] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
+2021-10-22 20:42:12.357 [main-100] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
+2021-10-22 20:42:12.358 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
+2021-10-22 20:42:12.358 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
+2021-10-22 20:42:12.362 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:42:12.363 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:42:13.873 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:42:13.874 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:42:13.874 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:42:14.118 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 20:42:14.119 [main-36] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPage.init - Starting
+2021-10-22 20:44:46.682 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:44:46.686 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:44:46.687 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:44:46.687 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:44:46.688 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:44:46.689 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:44:46.689 [main-97] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
+2021-10-22 20:44:46.689 [main-98] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
+2021-10-22 20:44:46.690 [main-99] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
+2021-10-22 20:44:46.690 [main-100] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
+2021-10-22 20:44:46.690 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
+2021-10-22 20:44:46.690 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
+2021-10-22 20:44:46.694 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:44:46.695 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:44:48.297 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:44:48.298 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:44:48.299 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:44:48.586 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 20:44:48.587 [main-36] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPage.init - Starting
+2021-10-22 20:46:20.208 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:46:20.212 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:46:20.213 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:46:20.213 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:46:20.214 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:46:20.214 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:46:20.215 [main-97] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
+2021-10-22 20:46:20.215 [main-98] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
+2021-10-22 20:46:20.215 [main-99] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
+2021-10-22 20:46:20.215 [main-100] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
+2021-10-22 20:46:20.216 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
+2021-10-22 20:46:20.216 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
+2021-10-22 20:46:20.220 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:46:20.220 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:46:21.798 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:46:21.799 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:46:21.800 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:46:21.974 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 20:46:21.975 [main-36] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPage.init - Starting
+2021-10-22 20:46:22.232 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_get_first_title,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 20:46:22.232 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_get_first_title,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]}, {asserts=[{actual=getText}, {matcher=equalTo}, {expect=新闻}, {reason=定位失败！}]}]
+2021-10-22 20:50:15.760 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:50:15.764 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:50:15.764 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:50:15.765 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:50:15.765 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:50:15.766 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:50:15.766 [main-97] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
+2021-10-22 20:50:15.766 [main-98] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
+2021-10-22 20:50:15.767 [main-99] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
+2021-10-22 20:50:15.767 [main-100] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
+2021-10-22 20:50:15.767 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
+2021-10-22 20:50:15.767 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
+2021-10-22 20:50:15.771 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:50:15.772 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:50:17.283 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:50:17.284 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:50:17.284 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:50:17.554 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 20:50:17.555 [main-36] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPage.init - Starting
+2021-10-22 20:51:27.639 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:51:27.643 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:51:27.644 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:51:27.644 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:51:27.645 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:51:27.645 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:51:27.646 [main-97] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
+2021-10-22 20:51:27.646 [main-98] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
+2021-10-22 20:51:27.646 [main-99] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
+2021-10-22 20:51:27.646 [main-100] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
+2021-10-22 20:51:27.646 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
+2021-10-22 20:51:27.647 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
+2021-10-22 20:51:27.651 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:51:27.651 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:51:29.230 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:51:29.231 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:51:29.232 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:51:29.527 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 20:51:29.528 [main-36] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPage.init - Starting
+2021-10-22 20:51:29.794 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_get_first_title,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 20:51:29.794 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_get_first_title,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]}, {asserts=[{actual=getText}, {matcher=equalTo}, {expect=新闻}, {reason=定位失败！}]}]
+2021-10-22 20:53:48.187 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:53:48.191 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:53:48.192 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:53:48.192 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:53:48.193 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:53:48.193 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:53:48.193 [main-97] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
+2021-10-22 20:53:48.194 [main-98] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
+2021-10-22 20:53:48.194 [main-99] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
+2021-10-22 20:53:48.194 [main-100] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
+2021-10-22 20:53:48.194 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
+2021-10-22 20:53:48.195 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
+2021-10-22 20:53:48.199 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:53:48.200 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:53:49.727 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:53:49.728 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:53:49.728 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:53:49.938 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 20:53:49.939 [main-36] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPage.init - Starting
+2021-10-22 20:53:50.183 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_get_first_title,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 20:53:50.183 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_get_first_title,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]}, {asserts=[{actual=getText}, {matcher=equalTo}, {expect=新闻}, {reason=定位失败！}]}]
+2021-10-22 20:56:23.198 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:56:23.202 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:56:23.202 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:56:23.203 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:56:23.203 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:56:23.204 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:56:23.204 [main-97] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
+2021-10-22 20:56:23.204 [main-98] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
+2021-10-22 20:56:23.205 [main-99] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
+2021-10-22 20:56:23.205 [main-100] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
+2021-10-22 20:56:23.205 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
+2021-10-22 20:56:23.206 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
+2021-10-22 20:56:23.209 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:56:23.210 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:56:24.774 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:56:24.775 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:56:24.775 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:56:25.024 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 20:56:25.025 [main-36] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPage.init - Starting
+2021-10-22 20:56:25.297 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_get_first_title,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 20:56:25.298 [main-51] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - key***=testCase_get_first_title
+2021-10-22 20:56:25.298 [main-52] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - classMethodName=getClassMethodName
+2021-10-22 20:56:25.299 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_get_first_title,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]}, {asserts=[{actual=getText}, {matcher=equalTo}, {expect=新闻}, {reason=定位失败！}]}]
+2021-10-22 20:56:25.299 [main-51] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - key***=testCase_get_first_title
+2021-10-22 20:56:25.299 [main-52] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - classMethodName=getClassMethodName
+2021-10-22 20:59:06.574 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:59:06.579 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:59:06.579 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:59:06.580 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:59:06.580 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:59:06.581 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:59:06.581 [main-97] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
+2021-10-22 20:59:06.582 [main-98] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
+2021-10-22 20:59:06.582 [main-99] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
+2021-10-22 20:59:06.582 [main-100] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
+2021-10-22 20:59:06.582 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
+2021-10-22 20:59:06.583 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
+2021-10-22 20:59:06.587 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:59:06.587 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:59:08.154 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:59:08.155 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:59:08.156 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 20:59:08.324 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 20:59:08.325 [main-36] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPage.init - Starting
+2021-10-22 20:59:08.566 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_get_first_title,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 20:59:08.567 [main-51] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - key***=testCase_get_first_title
+2021-10-22 20:59:08.567 [main-52] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - classMethodName=getClassMethodName
+2021-10-22 20:59:08.567 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_get_first_title,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]}, {asserts=[{actual=getText}, {matcher=equalTo}, {expect=新闻}, {reason=定位失败！}]}]
+2021-10-22 20:59:08.567 [main-51] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - key***=testCase_get_first_title
+2021-10-22 20:59:08.567 [main-52] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - classMethodName=getClassMethodName
+2021-10-22 21:01:58.278 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:01:58.281 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:01:58.282 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:01:58.283 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:01:58.283 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:01:58.284 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:01:58.284 [main-97] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
+2021-10-22 21:01:58.284 [main-98] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
+2021-10-22 21:01:58.285 [main-99] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
+2021-10-22 21:01:58.285 [main-100] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
+2021-10-22 21:01:58.285 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
+2021-10-22 21:01:58.285 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
+2021-10-22 21:01:58.289 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:01:58.290 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:01:59.860 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:01:59.860 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:01:59.861 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:02:00.011 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 21:02:00.013 [main-36] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPage.init - Starting
+2021-10-22 21:02:00.273 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_get_first_title,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 21:02:00.273 [main-51] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - key***=testCase_get_first_title
+2021-10-22 21:02:00.273 [main-52] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - classMethodName=get_first_title
+2021-10-22 21:02:00.275 [main-80] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 21:02:00.277 [main-80] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]
+2021-10-22 21:02:00.277 [main-78] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 21:02:00.277 [main-79] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 21:02:00.278 [main-98] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 21:02:00.278 [main-100] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 21:02:02.071 [main-143] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%内推 BAT
+2021-10-22 21:02:02.071 [main-144] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%*******By.id: search-term
+2021-10-22 21:02:02.799 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！
+2021-10-22 21:02:02.800 [main-121] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：内推 BAT
+2021-10-22 21:02:02.802 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_get_first_title,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]}, {asserts=[{actual=getText}, {matcher=equalTo}, {expect=新闻}, {reason=定位失败！}]}]
+2021-10-22 21:02:02.802 [main-51] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - key***=testCase_get_first_title
+2021-10-22 21:02:02.803 [main-52] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - classMethodName=get_first_title
+2021-10-22 21:02:02.803 [main-80] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 21:02:02.803 [main-80] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]
+2021-10-22 21:02:02.804 [main-78] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 21:02:02.804 [main-79] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 21:02:02.804 [main-98] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 21:02:02.805 [main-100] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 21:02:03.553 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：新闻
+2021-10-22 21:02:03.553 [main-121] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：新闻
+2021-10-22 21:04:48.603 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:04:48.616 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:04:48.617 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:04:48.618 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:04:48.619 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:04:48.619 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:04:48.620 [main-97] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
+2021-10-22 21:04:48.620 [main-98] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
+2021-10-22 21:04:48.621 [main-99] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
+2021-10-22 21:04:48.621 [main-100] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
+2021-10-22 21:04:48.621 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
+2021-10-22 21:04:48.622 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
+2021-10-22 21:04:48.627 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:04:48.627 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:04:50.129 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:04:50.130 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:04:50.130 [main-37] INFO  com.framework.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-10-22 21:04:50.271 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-22 21:04:50.271 [main-36] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPage.init - Starting
+2021-10-22 21:04:50.514 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_get_first_title,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]}, {asserts=[{actual=getText}, {matcher=contains}, {expect=内推 BAT}, {reason=搜索成功！}]}]
+2021-10-22 21:04:50.515 [main-51] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - key***=testCase_get_first_title
+2021-10-22 21:04:50.515 [main-52] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - classMethodName=get_first_title
+2021-10-22 21:04:50.516 [main-80] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 21:04:50.517 [main-80] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://ceshiren.com}, {find=[id, search-button]}, {click=null}, {find=[id, search-term]}, {sendkeys=内推 BAT}, {find=[css, .topic-title]}, {getText=[css, .topic-title]}]
+2021-10-22 21:04:50.518 [main-78] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 21:04:50.518 [main-79] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 21:04:50.518 [main-98] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 21:04:50.518 [main-100] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 21:04:52.139 [main-143] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%内推 BAT
+2021-10-22 21:04:52.140 [main-144] INFO  com.framework.basepo.POBasePage.lambda$null$0 - %%%%%*******By.id: search-term
+2021-10-22 21:04:52.876 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！
+2021-10-22 21:04:52.876 [main-121] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：内推 BAT
+2021-10-22 21:04:52.878 [main-50] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - testCase_get_first_title,[{search_name.new=com.wechat.pageobject.CeshirenPOCodeSearchPage}, {search_name.get_first_title=[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]}, {asserts=[{actual=getText}, {matcher=equalTo}, {expect=新闻}, {reason=定位失败！}]}]
+2021-10-22 21:04:52.878 [main-51] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - key***=testCase_get_first_title
+2021-10-22 21:04:52.878 [main-52] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$6 - classMethodName=get_first_title
+2021-10-22 21:04:52.879 [main-80] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$com.wechat.pageobject.CeshirenPOCodeSearchPage
+2021-10-22 21:04:52.879 [main-80] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - $$$$[{get=https://www.baidu.com}, {find=[xpath, //*[@id='s-top-left']/a[1]]}, {getText=[xpath, //*[@id='s-top-left']/a[1]]}]
+2021-10-22 21:04:52.880 [main-78] INFO  com.framework.basepo.POBasePage.runPOMethod - methods大小=null
+2021-10-22 21:04:52.880 [main-79] INFO  com.framework.basepo.POBasePage.runPOMethod - ClassName=get_first_title
+2021-10-22 21:04:52.880 [main-98] INFO  com.framework.basepo.POBasePage.runPOMethod - ******####******
+2021-10-22 21:04:52.881 [main-100] INFO  com.framework.basepo.POBasePage.runPOMethod - Derrick2-------
+2021-10-22 21:04:53.586 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果：新闻
+2021-10-22 21:04:53.587 [main-121] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果：新闻
