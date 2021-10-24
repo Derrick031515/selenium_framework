@@ -1,20 +1,23 @@
 package com.wechat.pageobject;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import com.framework.basepo.POBaseData;
 import com.framework.basepo.POBasePage;
 import com.framework.basetest.BaseTestCaseExcutor;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
-import org.openqa.selenium.By;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.openqa.selenium.WebDriver;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 
@@ -32,7 +35,7 @@ public class CeshirenPOCodeSearchPage extends POBasePage {
     }
 
     @BeforeAll
-    static void init() throws IOException {
+    static List<POBaseData> init() throws IOException {
         log.info("Starting");
         /**
          * 读取配置文件
@@ -42,6 +45,11 @@ public class CeshirenPOCodeSearchPage extends POBasePage {
                 new File("src/test/resources/model/" + getClassName() + ".yaml"),
                 BaseTestCaseExcutor.class
         );
+
+        TypeReference<List<POBaseData>> typeReference = new TypeReference<List<POBaseData>>() {
+        };
+        List<POBaseData> data = mapper.readValue(POBaseData.class.getResourceAsStream("src/test/resources/data/" + getClassName() + "Data.yaml"), typeReference);
+        return  data;
     }
 
 
@@ -54,6 +62,7 @@ public class CeshirenPOCodeSearchPage extends POBasePage {
         assertAll("",assertList.stream());
     }
 
+    @Test
     /**
      * 获取当前类名称
      */
@@ -65,26 +74,12 @@ public class CeshirenPOCodeSearchPage extends POBasePage {
         return res;
     }
 
-    /**
-     * 获取当前类方法
-     * @return
-     */
-    public static String getClassMethodName(){
-        String classMethodName = Thread.currentThread().getStackTrace()[1].getMethodName();
-
-        return classMethodName;
-    }
-
-    @Test
-    public void get_first_title() {
+    @ParameterizedTest
+    @MethodSource("init")
+    public void get_first_title(POBaseData poBaseData) {
+        //获取当前方法名称
         String classMethodName = Thread.currentThread().getStackTrace()[1].getMethodName();
         assertList = baseTestCaseExcutor.run(driver,assertList,classMethodName);
-//        String text = driver.findElement(By.cssSelector(".topic-title")).getText();
-        System.out.println("text");
     }
 
-//    @Test
-    void tests(){
-        System.out.println("Hello world");
-    }
 }

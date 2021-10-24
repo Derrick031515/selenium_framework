@@ -13,22 +13,11 @@ steps:
             - find: [ id, search-button ]
             - click:
             - find: [ id, search-term ]
-            - sendkeys: "内推 BAT"
+            - sendkeys: "${param1}"
             - find: [ css, .topic-title ]
             - getText: [ css, .topic-title ]
         - asserts:
               - actual: getText
-              - matcher: contains
-              - expect: "内推 BAT"
+              - matcher: "${param2}"
+              - expect: "${param3}"
               - reason: '搜索成功！'
-    - testCase_get_first_title:
-        - search_name.new: com.wechat.pageobject.CeshirenPOCodeSearchPage
-        - search_name.get_first_title:
-            - get: https://www.baidu.com
-            - find: [ xpath, "//*[@id='s-top-left']/a[1]" ]
-            - getText: [ xpath, "//*[@id='s-top-left']/a[1]" ]
-        - asserts:
-            - actual: getText
-            - matcher: equalTo
-            - expect: "新闻"
-            - reason: '定位失败！'

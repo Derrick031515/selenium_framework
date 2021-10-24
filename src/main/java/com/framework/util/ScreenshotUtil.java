@@ -7,7 +7,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.ITestResult;
+//import org.testng.ITestResult;
 
 import java.io.File;
 import java.io.IOException;
@@ -33,7 +33,7 @@ public class ScreenshotUtil {
      *
      * @param iTestResult i测试结果
      **/
-    public static void capture(ITestResult iTestResult) throws IOException {
+    /*public static void capture(ITestResult iTestResult) throws IOException {
         log.info("开始截图");
         // 拿到需要截图的驱动
         WebDriver driver = BaseTestCaseInit.driver;
@@ -62,5 +62,5 @@ public class ScreenshotUtil {
             e.printStackTrace();
             log.error("截图操作异常！");
         }
-    }
+    }*/
 }

@@ -1,0 +1,34 @@
+name: search_name
+before_all: [ ]
+after_all: [ ]
+#data:
+#  - 内推 BAT
+#  - 定向班第5期
+steps:
+  #编程模式
+    - testCase_get_first_title:
+        - search_name.new: com.wechat.pageobject.CeshirenPOCodeSearchPage
+        - search_name.get_first_title:
+            - get: https://ceshiren.com
+            - find: [ id, search-button ]
+            - click:
+            - find: [ id, search-term ]
+            - sendkeys: "内推 BAT"
+            - find: [ css, .topic-title ]
+            - getText: [ css, .topic-title ]
+        - asserts:
+              - actual: getText
+              - matcher: contains
+              - expect: "内推 BAT"
+              - reason: '搜索成功！'
+    - testCase_get_first_title:
+        - search_name.new: com.wechat.pageobject.CeshirenPOCodeSearchPage
+        - search_name.get_first_title:
+            - get: https://www.baidu.com
+            - find: [ xpath, "//*[@id='s-top-left']/a[1]" ]
+            - getText: [ xpath, "//*[@id='s-top-left']/a[1]" ]
+        - asserts:
+            - actual: getText
+            - matcher: equalTo
+            - expect: "新闻"
+            - reason: '定位失败！'
