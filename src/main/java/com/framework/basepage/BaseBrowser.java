@@ -1,7 +1,7 @@
 package com.framework.basepage;
 
 import com.framework.basedriver.BaseDriver;
-import com.framework.basetest.BaseTestCaseInit;
+//import com.framework.basetest.BaseTestCaseInit;
 import com.framework.util.PropertiesReader;
 import com.framework.util.RedisUtil;
 import org.openqa.selenium.By;

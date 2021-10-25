@@ -36,7 +36,7 @@ public class BaseTestCaseExcutor {
     public HashMap<String,String> assertHashMap = new HashMap<>();
     public LinkedHashMap<String,Object> valHashMap = new LinkedHashMap<>();
 
-    public ArrayList<Executable> run(WebDriver driver, ArrayList<Executable> assertList, String classMethodName, HashMap<String, String> caseData) {
+    public ArrayList<Executable> run(WebDriver driver, ArrayList<Executable> assertList, String classMethodName, HashMap<String, String> caseData, String env) {
 
         AtomicReference<By> default_by = new AtomicReference<>();
         AtomicReference<POBasePage> lastPage = new AtomicReference<>();
@@ -79,15 +79,7 @@ public class BaseTestCaseExcutor {
                             } else {
                                 ArrayList<LinkedHashMap<String,Object>> values = (ArrayList<LinkedHashMap<String,Object>>)value;
 
-                                    /*values.forEach(element->{
-                                        element.entrySet().forEach(assertEle->{
-                                            System.out.println("+++++++++++");
-                                            System.out.println("key="+assertEle.getKey()+",value="+assertEle.getValue());
-                                            System.out.println("+++++++++++");
-                                            valHashMap.put(assertEle.getKey(),assertEle.getValue());
-                                        });
-                                    });*/
-                                String actualRes = POStore.getInstance().getPO(poName).runPOMethod(poMethod,values,driver,caseData);
+                                String actualRes = POStore.getInstance().getPO(poName).runPOMethod(values,driver,caseData,env);
                                 log.info("测试用例执行结果为{ " + actualRes + " }");
 
                                 values.forEach(eleList->{

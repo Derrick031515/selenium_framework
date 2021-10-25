@@ -3,6 +3,7 @@ package com.framework.basepo;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.framework.basepage.BasePage;
+import com.framework.util.PropertiesReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -73,7 +74,7 @@ public class POBasePage extends BasePage {
     }
 
     //TODO 每个用例执行结束后返回一个断言结果【用string表示】
-    public String runPOMethod(String methodName, ArrayList<LinkedHashMap<String, Object>> mapList, WebDriver driver, HashMap<String, String> caseData) {
+    public String runPOMethod(ArrayList<LinkedHashMap<String, Object>> mapList, WebDriver driver, HashMap<String, String> caseData, String env) {
         ArrayList<String> resList = new ArrayList<>();
 
         /*if (methods == null){
@@ -98,17 +99,28 @@ public class POBasePage extends BasePage {
                 String action = assertEle.getKey().toLowerCase(); // key= asserts
                 Object value = assertEle.getValue();
                 String result = "";
+
                 switch (action) {
                     case "get":
-                        driver.get((String) value);
+                        String url = (String) value;
+                        if(url.contains("${param}")){
+                            url = url.replaceFirst("\\$\\{param\\}",env);
+                        }
+                        driver.get(url);
                         break;
                     case "find":
+                        long implicitlyWait = 0;
+                        try {
+                            implicitlyWait = Long.parseLong(PropertiesReader.getKey("driver.timeouts.implicitlyWait"));
+                            // 隐式等待
+                            driver.manage().timeouts().implicitlyWait(implicitlyWait, TimeUnit.SECONDS);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         ArrayList<String> values = (ArrayList<String>) value;
                         String locator_by = values.get(0);
                         String locator_value = values.get(1);
-
                         if (locator_by.equals("id")) {
-//                            By.id(locator_value);
                             driver.findElement(By.id(locator_value));
                             default_by.set(By.id(locator_value));
                         } else if (locator_by.equals("css")) {
@@ -124,7 +136,6 @@ public class POBasePage extends BasePage {
                         break;
                     case "click":
                         driver.findElement(default_by.get()).click();
-//                        click(default_by.get());
                         break;
                     case "sendkeys":
                         String keys = (String) value;
@@ -138,7 +149,6 @@ public class POBasePage extends BasePage {
                         ArrayList<String> valuesText = (ArrayList<String>) value;
                         String locator_by_key = valuesText.get(0);
                         String locator_by_value = valuesText.get(1);
-
                         if (locator_by_key.equals("id")) {
                             result = driver.findElement(By.id(locator_by_value)).getText();
                         } else if (locator_by_key.equals("css")) {
@@ -155,56 +165,6 @@ public class POBasePage extends BasePage {
 
             });
         });
-        /*map.entrySet().forEach(entry -> {
-                System.out.println("此处开始yaml处理"+entry);
-
-                String action = entry.getKey().toLowerCase();
-                Object value = entry.getValue();
-                String result = "";
-                switch (action) {
-                    case "get":
-                        driver.get((String) value);
-                        break;
-                    case "find":
-                        ArrayList<String> values = (ArrayList<String>) value;
-                        String locator_by = values.get(0);
-                        String locator_value = values.get(1);
-
-                        if (locator_by.equals("id")) {
-                            default_by.set(By.id(locator_value));
-                        } else if (locator_by.equals("css")) {
-                            default_by.set(By.cssSelector(locator_value));
-                        } else if (locator_by.equals("link_text")){
-                            default_by.set(By.partialLinkText(locator_value));
-                        }
-                        break;
-                    case "click":
-                        click(default_by.get());
-                        break;
-                    case "sendkeys":
-                        String keys = (String) value;
-                        log.info("%%%%%"+keys);
-                        log.info("%%%%%*******"+default_by.get());
-                        sendKeys(default_by.get(), keys);
-                        break;
-                    case "getText":
-                        ArrayList<String> valuesText = (ArrayList<String>) value;
-                        String locator_by_key = valuesText.get(0);
-                        String locator_by_value = valuesText.get(1);
-
-                        if (locator_by_key.equals("id")) {
-                            result = driver.findElement(By.id(locator_by_value)).getText();
-                        } else if (locator_by_key.equals("css")) {
-                            result = driver.findElement(By.cssSelector(locator_by_value)).getText();
-                        } else if (locator_by_key.equals("link_text")){
-                            result = driver.findElement(By.partialLinkText(locator_by_value)).getText();
-                        }
-
-                        break;
-                }
-                resList.add(result);
-            });
-//        });*/
 
         return resList.get(0);
     }

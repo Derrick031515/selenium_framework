@@ -1,6 +1,7 @@
 package com.framework.basetest;
 
 import com.framework.basedriver.BaseDriver;
+import com.framework.basepage.BaseBrowser;
 import com.framework.util.PropertiesReader;
 import org.junit.jupiter.api.AfterAll;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +18,7 @@ import java.io.IOException;
  * @date 2021/1/22
  */
 
-public class BaseTestCaseTearDown extends BaseTestCaseInit{
+public class BaseTestCaseTearDown extends BaseBrowser {
     public static final Logger log = LoggerFactory.getLogger(BaseTestCaseTearDown.class);
     /**
      * 驱动

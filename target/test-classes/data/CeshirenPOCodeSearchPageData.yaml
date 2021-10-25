@@ -13,4 +13,8 @@
         - num: "1"
           param1: "equalTo"
           param2: "新闻"
+    - get_title3:
+        - num: "1"
+          param1: "contains"
+          param2: "Online"
 
