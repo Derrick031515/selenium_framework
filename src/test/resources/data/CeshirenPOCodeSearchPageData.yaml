@@ -1,8 +1,16 @@
-- data
-  - get_first_title:
-    - param1: "内推 BAT"
-    - param2: "contains"
-    - param3: "内推 BAT"
-    - param1: "内推 BAT"
-    - param2: "contains"
-    - param3: "名企"
+- data:
+  #编程模式
+    - get_first_title:
+        - num: "1"
+          param1: "内推 BAT"
+          param2: "contains"
+          param3: "名企"
+        - num: "2"
+          param1: "内推 BAT"
+          param2: "contains"
+          param3: "名企"
+    - get_title2:
+        - num: "1"
+          param1: "equalTo"
+          param2: "新闻"
+

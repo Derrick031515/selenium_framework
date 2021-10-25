@@ -17,7 +17,7 @@ public class TestCaseMain {
                 .selectors(
                         selectPackage("com.wechat.pageobject"),
                         selectClass(CeshirenPOCodeSearchPage.class)
-//                        selectMethod("examples.packageA.ClassATest#testCaseA")
+//                        selectMethod("examples.packageA.ClassATest#testCaseA"),
                 ).build();
         Launcher launcher = LauncherFactory.create();
 

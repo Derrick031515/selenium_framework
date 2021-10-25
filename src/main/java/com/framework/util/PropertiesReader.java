@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
 import java.util.Properties;
 
 /**
@@ -34,7 +35,6 @@ public class PropertiesReader {
      * @throws IOException IOException
      */
     public static Properties readProperties(String propertiesPath) throws IOException {
-        log.info("读取项目配置文件");
         InputStream inputStream = new FileInputStream(propertiesPath);
         // 读取配置文件通过 utf-8 编码方式读取
         InputStreamReader inputStreamReader = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
@@ -54,6 +54,29 @@ public class PropertiesReader {
         String property = properties.getProperty(key);
 
         return property;
+    }
+
+    /**
+     * 依据键名获取配置文件中的键值
+     */
+    public static HashMap<String, String> getConfigKey() throws IOException {
+        Properties properties = PropertiesReader.readProperties("src/main/resources/config/config.properties");
+        String browserName = properties.getProperty("driver.browserName");
+        String terminal = properties.getProperty("driver.terminal");
+        String deviceName = properties.getProperty("driver.deviceName");
+        String remotePort = properties.getProperty("driver.remotePort");
+        String remoteIP = properties.getProperty("driver.remoteIP");
+        String browserVersion = properties.getProperty("driver.browserVersion");
+
+        HashMap<String, String> configKeyMap = new HashMap<>();
+        configKeyMap.put("browserName",browserName);
+        configKeyMap.put("terminal",terminal);
+        configKeyMap.put("deviceName",deviceName);
+        configKeyMap.put("remotePort",remotePort);
+        configKeyMap.put("remoteIP",remoteIP);
+        configKeyMap.put("browserVersion",browserVersion);
+
+        return configKeyMap;
     }
 
 }

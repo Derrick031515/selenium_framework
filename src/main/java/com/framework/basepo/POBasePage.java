@@ -73,10 +73,7 @@ public class POBasePage extends BasePage {
     }
 
     //TODO 每个用例执行结束后返回一个断言结果【用string表示】
-    public String runPOMethod(String methodName, ArrayList<LinkedHashMap<String,Object>> mapList, WebDriver driver) {
-        System.out.println("&&&&&&");
-        log.info("methods大小="+methods);
-        log.info("ClassName="+methodName);
+    public String runPOMethod(String methodName, ArrayList<LinkedHashMap<String, Object>> mapList, WebDriver driver, HashMap<String, String> caseData) {
         ArrayList<String> resList = new ArrayList<>();
 
         /*if (methods == null){
@@ -95,21 +92,15 @@ public class POBasePage extends BasePage {
         }*/
 
         AtomicReference<By> default_by = new AtomicReference<>();
-        log.info("******####******");
-//        methods.get(methodName).forEach(step -> {
-            log.info("Derrick2-------");
-//            step.entrySet().forEach(entry -> {
+
         mapList.forEach(element->{
             element.entrySet().forEach(assertEle->{
-                System.out.println("此处开始yaml处理"+assertEle);
-
-                String action = assertEle.getKey().toLowerCase();
+                String action = assertEle.getKey().toLowerCase(); // key= asserts
                 Object value = assertEle.getValue();
                 String result = "";
                 switch (action) {
                     case "get":
                         driver.get((String) value);
-                        System.out.println("Success");
                         break;
                     case "find":
                         ArrayList<String> values = (ArrayList<String>) value;
@@ -130,29 +121,24 @@ public class POBasePage extends BasePage {
                             driver.findElement(By.xpath(locator_value));
                             default_by.set(By.xpath(locator_value));
                         }
-                        System.out.println("Success");
                         break;
                     case "click":
-//                        System.out.println("click="+default_by.get());
                         driver.findElement(default_by.get()).click();
 //                        click(default_by.get());
-                        System.out.println("Success");
                         break;
                     case "sendkeys":
                         String keys = (String) value;
-                        log.info("%%%%%"+keys);
-                        log.info("%%%%%*******"+default_by.get());
+                        if(keys.contains("${")){
+                            keys = keys.substring(2,keys.length()-1);
+                            keys = caseData.get(keys);
+                        }
                         driver.findElement(default_by.get()).sendKeys(keys);
-//                        sendKeys(default_by.get(), keys);
-                        System.out.println("Success");
                         break;
                     case "gettext":
-                        System.out.println("&&Starting&&");
                         ArrayList<String> valuesText = (ArrayList<String>) value;
                         String locator_by_key = valuesText.get(0);
                         String locator_by_value = valuesText.get(1);
-                        System.out.println("key***"+locator_by_key);
-                        System.out.println("value***"+locator_by_value);
+
                         if (locator_by_key.equals("id")) {
                             result = driver.findElement(By.id(locator_by_value)).getText();
                         } else if (locator_by_key.equals("css")) {
@@ -163,8 +149,6 @@ public class POBasePage extends BasePage {
                             result = driver.findElement(By.xpath(locator_by_value)).getText();
                         }
 
-                        System.out.println("result***"+result);
-                        System.out.println("Success");
                         resList.add(result);
                         break;
                 }
@@ -221,8 +205,6 @@ public class POBasePage extends BasePage {
                 resList.add(result);
             });
 //        });*/
-
-        System.out.println("返回的结果为："+resList.get(0));
 
         return resList.get(0);
     }

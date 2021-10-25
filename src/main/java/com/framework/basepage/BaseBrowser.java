@@ -15,6 +15,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Set;
 
 /**
@@ -88,12 +89,15 @@ public class BaseBrowser {
 
     static{
         try {
-            String browserName = PropertiesReader.getKey("driver.browserName");
-            String terminal = PropertiesReader.getKey("driver.terminal");
-            String deviceName = PropertiesReader.getKey("driver.deviceName");
-            int remotePort = Integer.parseInt(PropertiesReader.getKey("driver.remotePort"));
-            String remoteIP = PropertiesReader.getKey("driver.remoteIP");
-            String browserVersion = PropertiesReader.getKey("driver.browserVersion");
+            log.info("开始加载浏览器配置信息");
+            HashMap<String, String> configKey = PropertiesReader.getConfigKey();
+            String browserName = configKey.get("browserName");
+            String terminal = configKey.get("terminal");
+            String deviceName = configKey.get("deviceName");
+            int remotePort = Integer.parseInt(configKey.get("remotePort"));
+            String remoteIP = configKey.get("remoteIP");
+            String browserVersion = configKey.get("browserVersion");
+
             log.info("browserName="+browserName);
             log.info("terminal="+terminal);
             log.info("deviceName="+deviceName);
@@ -103,6 +107,7 @@ public class BaseBrowser {
             /* 驱动配置 */
             baseDriver = new BaseDriver();
             driver = baseDriver.startBrowser(browserName, terminal, deviceName, remoteIP, remotePort, browserVersion);
+            log.info("加载配置信息结束");
         } catch (IOException e) {
             e.printStackTrace();
         }
