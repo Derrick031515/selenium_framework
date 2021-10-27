@@ -1,9 +1,11 @@
 package com.framework.basepage;
 
+import com.framework.util.PropertiesReader;
 import com.framework.util.RedisUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
 
@@ -14,13 +16,12 @@ import java.io.IOException;
  * @version 1.0.0
  * @date 2020/1/28
  */
-public class BasePage extends BaseBrowser {
+public class BasePage  {
     public static WebDriver driver;
     /**
      * 构造器1
      */
     public BasePage() {
-        this.driver = super.driver;
     }
 
     /**
@@ -73,7 +74,11 @@ public class BasePage extends BaseBrowser {
      * @param title 指定标题
      * @return 布尔值
      */
-    public boolean ifTitleIs(String title) {
+    public boolean ifTitleIs(String title) throws IOException {
+        // 显示等待时长
+        long timeout = Long.parseLong(PropertiesReader.getKey("driver.timeouts.webDriverWait"));
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
+
         return wait.until(ExpectedConditions.titleIs(title));
     }
 
@@ -83,7 +88,10 @@ public class BasePage extends BaseBrowser {
      * @param text 指定文本
      * @return 布尔值
      */
-    public boolean ifTitleContains(String text) {
+    public boolean ifTitleContains(String text) throws IOException {
+        // 显示等待时长
+        long timeout = Long.parseLong(PropertiesReader.getKey("driver.timeouts.webDriverWait"));
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
         return wait.until(ExpectedConditions.titleContains(text));
     }
 
@@ -94,7 +102,9 @@ public class BasePage extends BaseBrowser {
      * @param text    指定文本
      * @return 布尔值
      */
-    public boolean ifTextExists(By locator, String text) {
+    public boolean ifTextExists(By locator, String text) throws IOException {
+        long timeout = Long.parseLong(PropertiesReader.getKey("driver.timeouts.webDriverWait"));
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
         return wait.until(ExpectedConditions.textToBePresentInElementLocated(locator, text));
     }
 

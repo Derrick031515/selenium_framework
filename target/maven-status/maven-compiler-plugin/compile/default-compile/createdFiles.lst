@@ -18,5 +18,6 @@ com/framework/constant/TestConstant.class
 com/framework/basetest/BaseTestCaseExcutor.class
 com/framework/basepage/BasePage.class
 com/framework/util/PropertiesReader.class
+com/framework/basepo/POBasePage_bak.class
 com/framework/basedriver/OperaDriverHandler.class
 com/framework/util/ScreenshotUtil.class

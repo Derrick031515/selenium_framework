@@ -77,22 +77,6 @@ public class POBasePage extends BasePage {
     //TODO 每个用例执行结束后返回一个断言结果【用string表示】
     public String runPOMethod(ArrayList<LinkedHashMap<String, Object>> mapList, WebDriver driver, HashMap<String, String> caseData, String env) {
         ArrayList<String> resList = new ArrayList<>();
-
-        /*if (methods == null){
-            log.info("Derrick1-------");
-            try {
-                Object invoke = this.getClass().getMethod(methodName).invoke(this, null);
-                System.out.println("&&&&&&&&&&&&&&"+invoke);
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
-            } catch (InvocationTargetException e) {
-                e.printStackTrace();
-            } catch (NoSuchMethodException e) {
-                e.printStackTrace();
-            }
-            return null;
-        }*/
-
         AtomicReference<WebElement> default_by = new AtomicReference<>();
 
         mapList.forEach(element->{

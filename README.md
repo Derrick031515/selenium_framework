@@ -7,7 +7,7 @@
 ## 二、Web UI 框架结构图
 封装的底层框架用到Java+Maven+Selenium+Junit5+Log4j+Allure，支持多种浏览器的测试，包括谷歌、火狐、IE、Safari等。同时框架可根据配置文件【包括业务和用例】自动解析、生成并执行测试用例，且用例实现参数化。在框架封装基础之上，仅关注业务开发。<br />
 
-![框架结构图](/Users/hupo/Library/Application Support/typora-user-images/image-20211025175550811.png)
+![框架结构图](/Users/hupo/Library/Application Support/typora-user-images/image-20211025175550811.png![image-20211027224825227](/Users/hupo/Library/Application Support/typora-user-images/image-20211027224825227.png)
 
 - main
   - java
@@ -38,11 +38,8 @@
       - **log4j2.xml**：log4j2的配置文件、控制台输出和文件滚动输出
 - test
   - java
-    - pageobject
-      - **CeshirenPOCodeSearchPage**：项目业务模块
-      - **TestCaseTearDownTest**：封装关闭浏览器操作类
     - testcase
-      - **TestCaseMain**：测试用例主类
+      - **CeshirenPOCodeSearchPage**：项目业务模块
   - resources
     - data
       - **CeshirenPOCodeSearchPageData.yaml**：项目业务模块用例参数化数据

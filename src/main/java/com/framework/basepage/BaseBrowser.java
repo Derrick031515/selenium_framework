@@ -59,8 +59,41 @@ public class BaseBrowser {
 
     /**
      * 构造器1
+    public BaseBrowser(){
+
+    }*/
+
+    /**
+     * 构造器 1
      */
-    public BaseBrowser(){}
+    public BaseBrowser() {
+        try {
+            log.info("开始加载浏览器配置信息");
+            HashMap<String, String> configKey = PropertiesReader.getConfigKey();
+            String browserName = configKey.get("browserName");
+            String terminal = configKey.get("terminal");
+            String deviceName = configKey.get("deviceName");
+            int remotePort = Integer.parseInt(configKey.get("remotePort"));
+            String remoteIP = configKey.get("remoteIP");
+            String browserVersion = configKey.get("browserVersion");
+
+            log.info("browserName="+browserName);
+            log.info("terminal="+terminal);
+            log.info("deviceName="+deviceName);
+            log.info("remotePort="+remotePort);
+            log.info("remoteIP="+remoteIP);
+            log.info("browserVersion="+browserVersion);
+            /* 驱动配置 */
+            baseDriver = new BaseDriver();
+            this.driver = baseDriver.startBrowser(browserName, terminal, deviceName, remoteIP, remotePort, browserVersion);
+            log.info("BBBrowser="+driver);
+            log.info("BBBbaseDriver="+baseDriver);
+            log.info("加载配置信息结束");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     /**
      * 构造器 2
      */
@@ -87,7 +120,7 @@ public class BaseBrowser {
         this.redisUtil = redisUtil;
     }
 
-    static{
+    /*static{
         try {
             log.info("开始加载浏览器配置信息");
             HashMap<String, String> configKey = PropertiesReader.getConfigKey();
@@ -104,7 +137,7 @@ public class BaseBrowser {
             log.info("remotePort="+remotePort);
             log.info("remoteIP="+remoteIP);
             log.info("browserVersion="+browserVersion);
-            /* 驱动配置 */
+            *//* 驱动配置 *//*
             baseDriver = new BaseDriver();
             driver = baseDriver.startBrowser(browserName, terminal, deviceName, remoteIP, remotePort, browserVersion);
             log.info("加载配置信息结束");
@@ -113,7 +146,7 @@ public class BaseBrowser {
         }
 
     }
-
+*/
     /*============================== 基本元素操作 ==============================*/
 
     /**

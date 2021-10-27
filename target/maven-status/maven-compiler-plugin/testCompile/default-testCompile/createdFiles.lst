@@ -1,4 +1,6 @@
-com/wechat/pageobject/CeshirenPOCodeSearchPage$1.class
-com/wechat/pageobject/CeshirenPOCodeSearchPage.class
-com/wechat/testcase/TestCaseMain.class
-com/wechat/testcase/CeshirenSearchDDTTest.class
+com/wechat/pageobject/CeshirenPOCodeSearchPageTest.class
+com/wechat/pageobject/CeshirenPOCodeSearchPageTest$1.class
+com/wechat/pageobject/CeshirenPOCodeSearchPageTest2.class
+com/wechat/pageobject/TestCaseTearDownTest.class
+com/wechat/testcase/TestCaseMainTest.class
+com/wechat/pageobject/CeshirenPOCodeSearchPageTest2$1.class
