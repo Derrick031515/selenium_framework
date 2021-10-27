@@ -109,11 +109,11 @@ public class POBasePage extends BasePage {
                         driver.get(url);
                         break;
                     case "find":
-                        long implicitlyWait = 0;
+                        long webDriverWait = 0;
                         try {
-                            implicitlyWait = Long.parseLong(PropertiesReader.getKey("driver.timeouts.implicitlyWait"));
-                            // 隐式等待
-                            driver.manage().timeouts().implicitlyWait(implicitlyWait, TimeUnit.SECONDS);
+                            webDriverWait = Long.parseLong(PropertiesReader.getKey("driver.timeouts.webDriverWait"));
+                            // 显示等待
+                            driver.manage().timeouts().implicitlyWait(webDriverWait, TimeUnit.SECONDS);
                         } catch (IOException e) {
                             e.printStackTrace();
                         }

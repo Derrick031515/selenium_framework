@@ -1,178 +1,36 @@
-2021-10-26 09:57:33.360 [main-92] INFO  com.framework.basepage.BaseBrowser.<clinit> - 开始加载浏览器配置信息
-2021-10-26 09:57:33.378 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
-2021-10-26 09:57:33.378 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
-2021-10-26 09:57:33.379 [main-103] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
-2021-10-26 09:57:33.379 [main-104] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
-2021-10-26 09:57:33.379 [main-105] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
-2021-10-26 09:57:33.379 [main-106] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
-2021-10-26 09:57:39.169 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
-2021-10-26 09:57:39.169 [main-110] INFO  com.framework.basepage.BaseBrowser.<clinit> - 加载配置信息结束
-2021-10-26 09:57:39.170 [main-50] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.init - 项目模块{ CeshirenPOCodeSearchPageTest }测试用例开始执行
-2021-10-26 09:57:49.373 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_first_title }
-2021-10-26 09:57:49.374 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 09:57:51.698 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
-2021-10-26 09:57:51.699 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
-2021-10-26 09:57:51.699 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
-2021-10-26 09:57:51.700 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 名企 }
-2021-10-26 09:57:51.701 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
-2021-10-26 09:57:51.701 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 2 }条测试用例开始执行
-2021-10-26 09:57:53.738 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
-2021-10-26 09:57:53.739 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
-2021-10-26 09:57:53.752 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
-2021-10-26 09:57:53.753 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 名企 }
-2021-10-26 09:57:53.768 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
-2021-10-26 09:57:53.768 [main-121] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 方法{ get_first_title }测试用例执行结束
-2021-10-26 09:57:58.931 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_title2 }
-2021-10-26 09:57:58.932 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 09:57:59.492 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 新闻 }
-2021-10-26 09:57:59.492 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
-2021-10-26 09:57:59.493 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 新闻 }
-2021-10-26 09:57:59.493 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 新闻 }
-2021-10-26 09:57:59.494 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
-2021-10-26 09:57:59.494 [main-121] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 方法{ get_title2 }测试用例执行结束
-2021-10-26 09:58:04.510 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_title3 }
-2021-10-26 09:58:04.511 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 09:58:06.018 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{  }
-2021-10-26 09:58:06.028 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
-2021-10-26 09:58:06.029 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{  }
-2021-10-26 09:58:06.030 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ Online }
-2021-10-26 09:58:06.043 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
-2021-10-26 09:58:06.043 [main-121] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 方法{ get_title3 }测试用例执行结束
-2021-10-26 09:58:06.089 [main-72] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.tearDown - 项目模块{ CeshirenPOCodeSearchPageTest }共执行{ 4 }条用例，测试用例开始统一断言
-2021-10-26 10:00:16.285 [main-92] INFO  com.framework.basepage.BaseBrowser.<clinit> - 开始加载浏览器配置信息
-2021-10-26 10:00:16.290 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
-2021-10-26 10:00:16.291 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
-2021-10-26 10:00:16.291 [main-103] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
-2021-10-26 10:00:16.291 [main-104] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
-2021-10-26 10:00:16.291 [main-105] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
-2021-10-26 10:00:16.292 [main-106] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
-2021-10-26 10:00:22.031 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
-2021-10-26 10:00:22.031 [main-110] INFO  com.framework.basepage.BaseBrowser.<clinit> - 加载配置信息结束
-2021-10-26 10:00:22.032 [main-50] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.init - 项目模块{ CeshirenPOCodeSearchPageTest }测试用例开始执行
-2021-10-26 10:00:32.215 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_first_title }
-2021-10-26 10:00:32.218 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 10:00:34.536 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
-2021-10-26 10:00:34.537 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
-2021-10-26 10:00:34.538 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
-2021-10-26 10:00:34.538 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 名企 }
-2021-10-26 10:00:34.539 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
-2021-10-26 10:00:34.539 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 2 }条测试用例开始执行
-2021-10-26 10:00:36.538 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
-2021-10-26 10:00:36.547 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
-2021-10-26 10:00:36.547 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
-2021-10-26 10:00:36.558 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 名企 }
-2021-10-26 10:00:36.571 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
-2021-10-26 10:00:36.584 [main-121] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 方法{ get_first_title }测试用例执行结束
-2021-10-26 10:00:41.711 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_title2 }
-2021-10-26 10:00:41.712 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 10:00:42.289 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 新闻 }
-2021-10-26 10:00:42.290 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
-2021-10-26 10:00:42.290 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 新闻 }
-2021-10-26 10:00:42.290 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 新闻 }
-2021-10-26 10:00:42.291 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
-2021-10-26 10:00:42.291 [main-121] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 方法{ get_title2 }测试用例执行结束
-2021-10-26 10:00:47.309 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_title3 }
-2021-10-26 10:00:47.310 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 10:00:57.566 [main-72] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.tearDown - 项目模块{ CeshirenPOCodeSearchPageTest }共执行{ 4 }条用例，测试用例开始统一断言
-2021-10-26 10:00:57.574 [main-74] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.tearDown - 统一断言结束
-2021-10-26 10:03:56.687 [main-92] INFO  com.framework.basepage.BaseBrowser.<clinit> - 开始加载浏览器配置信息
-2021-10-26 10:03:56.691 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
-2021-10-26 10:03:56.691 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
-2021-10-26 10:03:56.691 [main-103] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
-2021-10-26 10:03:56.692 [main-104] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
-2021-10-26 10:03:56.692 [main-105] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
-2021-10-26 10:03:56.692 [main-106] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
-2021-10-26 10:03:58.397 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
-2021-10-26 10:03:58.398 [main-110] INFO  com.framework.basepage.BaseBrowser.<clinit> - 加载配置信息结束
-2021-10-26 10:03:58.399 [main-50] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.init - 项目模块{ CeshirenPOCodeSearchPageTest }测试用例开始执行
-2021-10-26 10:04:08.581 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_first_title }
-2021-10-26 10:04:08.582 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 10:04:13.669 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_title2 }
-2021-10-26 10:04:13.670 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 10:04:18.688 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_title3 }
-2021-10-26 10:04:18.688 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 10:04:18.698 [main-72] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.tearDown - 项目模块{ CeshirenPOCodeSearchPageTest }共执行{ 4 }条用例，测试用例开始统一断言
-2021-10-26 10:04:18.702 [main-74] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.tearDown - 统一断言结束
-2021-10-26 10:05:01.022 [main-92] INFO  com.framework.basepage.BaseBrowser.<clinit> - 开始加载浏览器配置信息
-2021-10-26 10:05:01.026 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
-2021-10-26 10:05:01.026 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
-2021-10-26 10:05:01.026 [main-103] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
-2021-10-26 10:05:01.027 [main-104] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
-2021-10-26 10:05:01.027 [main-105] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
-2021-10-26 10:05:01.027 [main-106] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
-2021-10-26 10:05:02.821 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
-2021-10-26 10:05:02.822 [main-110] INFO  com.framework.basepage.BaseBrowser.<clinit> - 加载配置信息结束
-2021-10-26 10:05:02.823 [main-50] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.init - 项目模块{ CeshirenPOCodeSearchPageTest }测试用例开始执行
-2021-10-26 10:05:13.028 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_first_title }
-2021-10-26 10:05:13.030 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 10:05:15.412 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
-2021-10-26 10:05:15.414 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
-2021-10-26 10:05:15.415 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
-2021-10-26 10:05:15.415 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 名企 }
-2021-10-26 10:05:15.416 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
-2021-10-26 10:05:15.417 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 2 }条测试用例开始执行
-2021-10-26 10:05:17.366 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
-2021-10-26 10:05:17.371 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
-2021-10-26 10:05:17.371 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
-2021-10-26 10:05:17.385 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 名企 }
-2021-10-26 10:05:17.386 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
-2021-10-26 10:05:17.398 [main-121] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 方法{ get_first_title }测试用例执行结束
-2021-10-26 10:05:22.505 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_title2 }
-2021-10-26 10:05:22.507 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 10:05:23.058 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 新闻 }
-2021-10-26 10:05:23.059 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
-2021-10-26 10:05:23.059 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 新闻 }
-2021-10-26 10:05:23.060 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 新闻 }
-2021-10-26 10:05:23.060 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
-2021-10-26 10:05:23.060 [main-121] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 方法{ get_title2 }测试用例执行结束
-2021-10-26 10:05:28.078 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_title3 }
-2021-10-26 10:05:28.079 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 10:05:38.293 [main-72] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.tearDown - 项目模块{ CeshirenPOCodeSearchPageTest }共执行{ 4 }条用例，测试用例开始统一断言
-2021-10-26 10:05:38.300 [main-74] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.tearDown - 统一断言结束
-2021-10-26 10:08:12.575 [main-92] INFO  com.framework.basepage.BaseBrowser.<clinit> - 开始加载浏览器配置信息
-2021-10-26 10:08:12.579 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
-2021-10-26 10:08:12.580 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
-2021-10-26 10:08:12.580 [main-103] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
-2021-10-26 10:08:12.580 [main-104] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
-2021-10-26 10:08:12.580 [main-105] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
-2021-10-26 10:08:12.581 [main-106] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
-2021-10-26 10:08:14.280 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
-2021-10-26 10:08:14.281 [main-110] INFO  com.framework.basepage.BaseBrowser.<clinit> - 加载配置信息结束
-2021-10-26 10:08:14.282 [main-50] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.init - 项目模块{ CeshirenPOCodeSearchPageTest }测试用例开始执行
-2021-10-26 10:08:24.474 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_title3 }
-2021-10-26 10:08:24.474 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 10:08:35.135 [main-72] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.tearDown - 项目模块{ CeshirenPOCodeSearchPageTest }共执行{ 1 }条用例，测试用例开始统一断言
-2021-10-26 10:08:35.140 [main-74] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.tearDown - 统一断言结束
-2021-10-26 10:10:13.296 [main-92] INFO  com.framework.basepage.BaseBrowser.<clinit> - 开始加载浏览器配置信息
-2021-10-26 10:10:13.300 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
-2021-10-26 10:10:13.301 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
-2021-10-26 10:10:13.301 [main-103] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
-2021-10-26 10:10:13.301 [main-104] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
-2021-10-26 10:10:13.301 [main-105] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
-2021-10-26 10:10:13.302 [main-106] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
-2021-10-26 10:10:15.004 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
-2021-10-26 10:10:15.004 [main-110] INFO  com.framework.basepage.BaseBrowser.<clinit> - 加载配置信息结束
-2021-10-26 10:10:15.005 [main-50] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.init - 项目模块{ CeshirenPOCodeSearchPageTest }测试用例开始执行
-2021-10-26 10:10:25.202 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_title3 }
-2021-10-26 10:10:25.203 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 10:10:26.972 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{  }
-2021-10-26 10:10:26.973 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
-2021-10-26 10:10:26.974 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{  }
-2021-10-26 10:10:26.974 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ Online }
-2021-10-26 10:10:26.975 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
-2021-10-26 10:10:26.975 [main-121] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 方法{ get_title3 }测试用例执行结束
-2021-10-26 10:10:27.060 [main-72] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.tearDown - 项目模块{ CeshirenPOCodeSearchPageTest }共执行{ 1 }条用例，测试用例开始统一断言
-2021-10-26 10:14:27.300 [main-92] INFO  com.framework.basepage.BaseBrowser.<clinit> - 开始加载浏览器配置信息
-2021-10-26 10:14:27.306 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
-2021-10-26 10:14:27.306 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
-2021-10-26 10:14:27.306 [main-103] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
-2021-10-26 10:14:27.307 [main-104] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
-2021-10-26 10:14:27.307 [main-105] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
-2021-10-26 10:14:27.307 [main-106] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
-2021-10-26 10:14:29.111 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
-2021-10-26 10:14:29.112 [main-110] INFO  com.framework.basepage.BaseBrowser.<clinit> - 加载配置信息结束
-2021-10-26 10:14:29.113 [main-50] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.init - 项目模块{ CeshirenPOCodeSearchPageTest }测试用例开始执行
-2021-10-26 10:14:39.303 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_title3 }
-2021-10-26 10:14:39.304 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
-2021-10-26 10:14:51.126 [main-72] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.tearDown - 项目模块{ CeshirenPOCodeSearchPageTest }共执行{ 1 }条用例，测试用例开始统一断言
-2021-10-26 10:14:51.131 [main-74] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.tearDown - 统一断言结束
+2021-10-26 17:05:59.266 [main-92] INFO  com.framework.basepage.BaseBrowser.<clinit> - 开始加载浏览器配置信息
+2021-10-26 17:05:59.270 [main-101] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserName=chrome
+2021-10-26 17:05:59.270 [main-102] INFO  com.framework.basepage.BaseBrowser.<clinit> - terminal=pc
+2021-10-26 17:05:59.271 [main-103] INFO  com.framework.basepage.BaseBrowser.<clinit> - deviceName=desktop
+2021-10-26 17:05:59.271 [main-104] INFO  com.framework.basepage.BaseBrowser.<clinit> - remotePort=4444
+2021-10-26 17:05:59.271 [main-105] INFO  com.framework.basepage.BaseBrowser.<clinit> - remoteIP=
+2021-10-26 17:05:59.272 [main-106] INFO  com.framework.basepage.BaseBrowser.<clinit> - browserVersion=
+2021-10-26 17:06:01.033 [main-110] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-26 17:06:01.033 [main-110] INFO  com.framework.basepage.BaseBrowser.<clinit> - 加载配置信息结束
+2021-10-26 17:06:01.035 [main-50] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.init - 项目模块{ CeshirenPOCodeSearchPageTest }测试用例开始执行
+2021-10-26 17:06:11.229 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_first_title }
+2021-10-26 17:06:11.230 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-26 17:06:13.670 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
+2021-10-26 17:06:13.671 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-26 17:06:13.672 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
+2021-10-26 17:06:13.672 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 名企 }
+2021-10-26 17:06:13.674 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-26 17:06:13.675 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 2 }条测试用例开始执行
+2021-10-26 17:06:15.661 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
+2021-10-26 17:06:15.671 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-26 17:06:15.672 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 中高级测试开发「名企定向」培养计划，内推 BAT 大厂，还有万元奖学金等你拿！ }
+2021-10-26 17:06:15.685 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 名企 }
+2021-10-26 17:06:15.686 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-26 17:06:15.700 [main-121] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 方法{ get_first_title }测试用例执行结束
+2021-10-26 17:06:20.825 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_title2 }
+2021-10-26 17:06:20.825 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-26 17:06:21.393 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 新闻 }
+2021-10-26 17:06:21.393 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-26 17:06:21.394 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 新闻 }
+2021-10-26 17:06:21.394 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 新闻 }
+2021-10-26 17:06:21.395 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-26 17:06:21.395 [main-121] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 方法{ get_title2 }测试用例执行结束
+2021-10-26 17:06:26.408 [main-110] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.startMethod - 当前用例测试执行方法为{ get_title3 }
+2021-10-26 17:06:26.410 [main-116] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-26 17:06:37.788 [main-72] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.tearDown - 项目模块{ CeshirenPOCodeSearchPageTest }共执行{ 4 }条用例，测试用例开始统一断言
+2021-10-26 17:06:37.795 [main-74] INFO  com.wechat.pageobject.CeshirenPOCodeSearchPageTest.tearDown - 统一断言结束
