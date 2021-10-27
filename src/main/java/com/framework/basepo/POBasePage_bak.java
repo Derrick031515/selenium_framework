@@ -6,8 +6,6 @@ import com.framework.basepage.BasePage;
 import com.framework.util.PropertiesReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,24 +20,24 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
 
-public class POBasePage extends BasePage {
-    public static final Logger log = LoggerFactory.getLogger(POBasePage.class);
+public class POBasePage_bak extends BasePage {
+    public static final Logger log = LoggerFactory.getLogger(POBasePage_bak.class);
     public String name;
     public HashMap<String, List<HashMap<String, Object>>> methods;
 
     public static WebDriver driver;
     Integer retryTimes = 3;
 
-    public POBasePage() {
+    public POBasePage_bak() {
         this.driver = super.driver;
     }
 
-    public static POBasePage load(String name, WebDriver driver) {
+    public static POBasePage_bak load(String name, WebDriver driver) {
         /**
          * 从po的yaml文件中读取数据，并生成一个BasePage的实例
          */
 
-        POBasePage page = null;
+        POBasePage_bak page = null;
 
         String path = String.format("src/test/java/framework/po/%s.yaml", name);
         if (new File(path).exists()) {
@@ -53,21 +51,21 @@ public class POBasePage extends BasePage {
         return page;
     }
 
-    public static POBasePage loadFromFile(String path) {
+    public static POBasePage_bak loadFromFile(String path) {
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
 
         try {
-            return mapper.readValue(new File(path), POBasePage.class);
+            return mapper.readValue(new File(path), POBasePage_bak.class);
         } catch (IOException e) {
             e.printStackTrace();
             return null;
         }
     }
 
-    public static POBasePage loadFromClassloader(String className) {
+    public static POBasePage_bak loadFromClassloader(String className) {
         /**利用反射冲生成page实例*/
         try {
-            return (POBasePage) Class.forName(className).getDeclaredConstructor().newInstance();
+            return (POBasePage_bak) Class.forName(className).getDeclaredConstructor().newInstance();
         } catch (NoSuchMethodException | InstantiationException | IllegalAccessException | InvocationTargetException | ClassNotFoundException e) {
             e.printStackTrace();
             return null;
@@ -93,7 +91,7 @@ public class POBasePage extends BasePage {
             return null;
         }*/
 
-        AtomicReference<WebElement> default_by = new AtomicReference<>();
+        AtomicReference<By> default_by = new AtomicReference<>();
 
         mapList.forEach(element->{
             element.entrySet().forEach(assertEle->{
@@ -122,26 +120,21 @@ public class POBasePage extends BasePage {
                         String locator_by = values.get(0);
                         String locator_value = values.get(1);
                         if (locator_by.equals("id")) {
-                            WebElement elementId = driver.findElement(By.id(locator_value));
-                            default_by.set(elementId);
-                        } else if(locator_by.contains("ids_")){
-                            String[] indexStr = locator_by.split("_");
-                            int index = Integer.parseInt(indexStr[1]);
-                            WebElement elementsId = driver.findElements(By.id(locator_value)).get(index);
-                            default_by.set(elementsId);
-                        }  else if (locator_by.equals("css")) {
-                            WebElement elementCSS = driver.findElement(By.cssSelector(locator_value));
-                            default_by.set(elementCSS);
+                            driver.findElement(By.id(locator_value));
+                            default_by.set(By.id(locator_value));
+                        } else if (locator_by.equals("css")) {
+                            driver.findElement(By.cssSelector(locator_value));
+                            default_by.set(By.cssSelector(locator_value));
                         } else if (locator_by.equals("link_text")){
-                            WebElement elementLinkText = driver.findElement(By.partialLinkText(locator_value));
-                            default_by.set(elementLinkText);
+                            driver.findElement(By.partialLinkText(locator_value));
+                            default_by.set(By.partialLinkText(locator_value));
                         } else if(locator_by.equals("xpath")){
-                            WebElement elementXpath = driver.findElement(By.xpath(locator_value));
-                            default_by.set(elementXpath);
+                            driver.findElement(By.xpath(locator_value));
+                            default_by.set(By.xpath(locator_value));
                         }
                         break;
                     case "click":
-                        default_by.get().click();
+                        driver.findElement(default_by.get()).click();
                         break;
                     case "sendkeys":
                         String keys = (String) value;
@@ -149,10 +142,10 @@ public class POBasePage extends BasePage {
                             keys = keys.substring(2,keys.length()-1);
                             keys = caseData.get(keys);
                         }
-                        default_by.get().sendKeys(keys);
+                        driver.findElement(default_by.get()).sendKeys(keys);
                         break;
                     case "gettext":
-                        /*ArrayList<String> valuesText = (ArrayList<String>) value;
+                        ArrayList<String> valuesText = (ArrayList<String>) value;
                         String locator_by_key = valuesText.get(0);
                         String locator_by_value = valuesText.get(1);
                         if (locator_by_key.equals("id")) {
@@ -163,9 +156,7 @@ public class POBasePage extends BasePage {
                             result = driver.findElement(By.partialLinkText(locator_by_value)).getText();
                         } else if(locator_by_key.equals("xpath")){
                             result = driver.findElement(By.xpath(locator_by_value)).getText();
-                        }*/
-
-                        result = default_by.get().getText();
+                        }
 
                         resList.add(result);
                         break;
