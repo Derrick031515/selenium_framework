@@ -1,4 +1,4 @@
-# Java Selenium UI自动化框架
+# Selenium UI自动化框架
 
 <a name="YVkPx"></a>
 ## 一、GitHub链接
@@ -26,7 +26,6 @@
       - **POStore**：封装保存所有的po， poName: POBasePage实例
     - basetest
       - **BaseTestCaseExcutor**：封装解析测试用例整体操作步骤，包括断言
-      - **BaseTestCaseTearDown**：封装关闭浏览器操作类
     - constant
       - **TestConstant**：封装测试项目常量类
     - exception
@@ -41,6 +40,7 @@
   - java
     - pageobject
       - **CeshirenPOCodeSearchPage**：项目业务模块
+      - **TestCaseTearDownTest**：封装关闭浏览器操作类
     - testcase
       - **TestCaseMain**：测试用例主类
   - resources
