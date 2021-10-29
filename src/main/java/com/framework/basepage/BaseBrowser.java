@@ -1,7 +1,6 @@
 package com.framework.basepage;
 
 import com.framework.basedriver.BaseDriver;
-//import com.framework.basetest.BaseTestCaseInit;
 import com.framework.util.PropertiesReader;
 import com.framework.util.RedisUtil;
 import org.openqa.selenium.By;
@@ -73,19 +72,14 @@ public class BaseBrowser {
             String browserName = configKey.get("browserName");
             String terminal = configKey.get("terminal");
             String deviceName = configKey.get("deviceName");
-            int remotePort = Integer.parseInt(configKey.get("remotePort"));
-            String remoteIP = configKey.get("remoteIP");
-            String browserVersion = configKey.get("browserVersion");
 
             log.info("browserName="+browserName);
             log.info("terminal="+terminal);
             log.info("deviceName="+deviceName);
-            log.info("remotePort="+remotePort);
-            log.info("remoteIP="+remoteIP);
-            log.info("browserVersion="+browserVersion);
+
             /* 驱动配置 */
             baseDriver = new BaseDriver();
-            this.driver = baseDriver.startBrowser(browserName, terminal, deviceName, remoteIP, remotePort, browserVersion);
+            this.driver = baseDriver.startBrowser(browserName, terminal, deviceName);
             log.info("BBBrowser="+driver);
             log.info("BBBbaseDriver="+baseDriver);
             log.info("加载配置信息结束");

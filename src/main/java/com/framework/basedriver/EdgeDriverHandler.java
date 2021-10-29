@@ -1,17 +1,12 @@
 package com.framework.basedriver;
 
 import com.framework.util.PropertiesReader;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
 
 /**
  * edge 驱动配置
@@ -60,43 +55,4 @@ public class EdgeDriverHandler extends DriverHandler {
         return new EdgeDriver(edgeOptions);
     }
 
-    /**
-     * 启动远端 edge
-     * todo : 指定下载文件路径暂缺
-     * todo : 手机浏览器 h5 暂缺
-     *
-     * @param browserName    浏览器名
-     * @param terminal       终端 pc/h5
-     * @param deviceName     设备名
-     * @param remoteIP       远端 ip
-     * @param remotePort     端口
-     * @param browserVersion 浏览器版本
-     * @return WebDriver
-     */
-    @Override
-    public WebDriver startBrowser(String browserName, String terminal, String deviceName, String remoteIP, int remotePort, String browserVersion) throws IOException {
-        /* 当不是 edge 进入责任链的下一环 */
-        if (!browserName.toLowerCase().equals("edge")) {
-            return next.startBrowser(browserName, terminal, deviceName, remoteIP, remotePort, browserVersion);
-        }
-
-        /* todo : 下载地址设置 */
-        String downloadPath = System.getProperty("user.dir") + File.separator + PropertiesReader.getKey("driver.downloadPath");
-
-        /* 驱动可选项配置 */
-        // 配置远端浏览器版本
-        DesiredCapabilities desiredCapabilities = new DesiredCapabilities("edge", browserVersion, Platform.ANY);
-        EdgeOptions edgeOptions = new EdgeOptions().merge(desiredCapabilities);
-
-        /* todo : 如果要测手机浏览器 h5 */
-
-        /* 启动 RemoteWebDriver */
-        URL url = null;
-        try {
-            url = new URL("http://" + remoteIP + ":" + remotePort + "/wd/hub/");
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
-        return new RemoteWebDriver(url, edgeOptions);
-    }
 }

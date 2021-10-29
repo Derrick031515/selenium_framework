@@ -24,7 +24,7 @@ import java.util.Map;
  */
 public class ChromeDriverHandler extends DriverHandler {
     /**
-     * 启动本地 chrome
+     * 启动 chrome
      *
      * @param browserName 浏览器名
      * @param terminal    终端 pc/h5
@@ -38,16 +38,6 @@ public class ChromeDriverHandler extends DriverHandler {
             return next.startBrowser(browserName, terminal, deviceName);
         }
 
-        /* 驱动配置进环境变量 */
-        // 驱动根路径 /target/test-classes/driver
-//        String driverParentPath = this.getClass().getResource("/").getPath() + "drivers" + File.separator;
-        String driverParentPath = "src/main/resources/drivers" + File.separator;
-
-        // chrome 驱动路径
-        String chromeDriverPath = driverParentPath + PropertiesReader.getKey("driver.chromeDriver");
-        // 系统变量设置谷歌驱动
-        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
-
         /* 下载地址设置 */
         String downloadPath = System.getProperty("user.dir") + File.separator + PropertiesReader.getKey("driver.downloadPath");
         Map<String, Object> downloadMap = new HashMap<>();
@@ -55,12 +45,25 @@ public class ChromeDriverHandler extends DriverHandler {
 
         /* 驱动可选项配置 */
         ChromeOptions chromeOptions = new ChromeOptions();
-        // 配置下载路径
+        /*// 配置下载路径
         chromeOptions.setExperimentalOption("prefs", downloadMap);
         // --no-sandbox
         chromeOptions.addArguments("--no-sandbox");
         // --disable-dev-shm-usage
         chromeOptions.addArguments("--disable-dev-shm-usage");
+//        chromeOptions.addArguments("--headless");*/
+        //解决DevToolsActivePort文件不存在的报错
+        chromeOptions.addArguments("--no-sandbox");
+        //指定浏览器分辨率
+        chromeOptions.addArguments("window-size=1920x3000") ;
+        //谷歌文档提到需要加上这个属性来规避bug
+        chromeOptions.addArguments("--disable-gpu") ;
+        //隐藏滚动条, 应对一些特殊页面
+        chromeOptions.addArguments("--hide-scrollbars") ;
+        //不加载图片, 提升速度
+        chromeOptions.addArguments("blink-settings=imagesEnabled=false");
+        //浏览器不提供可视化页面. linux下如果系统不支持可视化不加这条会启动失败
+        chromeOptions.addArguments("--headless") ;
 
         /* 如果要测手机浏览器 h5 */
         if (terminal.toLowerCase().equals("h5")) {
@@ -72,57 +75,5 @@ public class ChromeDriverHandler extends DriverHandler {
 
         /* 启动 WebDriver */
         return new ChromeDriver(chromeOptions);
-    }
-
-    /**
-     * 启动远端 chrome
-     *
-     * @param browserName    浏览器名
-     * @param terminal       终端 pc/h5
-     * @param deviceName     设备名
-     * @param remoteIP       远端 ip
-     * @param remotePort     端口
-     * @param browserVersion 浏览器版本
-     * @return WebDriver
-     */
-    @Override
-    public WebDriver startBrowser(String browserName, String terminal, String deviceName, String remoteIP, int remotePort, String browserVersion) throws IOException {
-        /* 当不是 chrome 进入责任链的下一环 */
-        if (!browserName.toLowerCase().equals("chrome")) {
-            return next.startBrowser(browserName, terminal, deviceName, remoteIP, remotePort, browserVersion);
-        }
-
-        /* 下载地址设置 */
-        String downloadPath = System.getProperty("user.dir") + File.separator + PropertiesReader.getKey("driver.downloadPath");
-        Map<String, Object> downloadMap = new HashMap<>();
-        downloadMap.put("download.default_directory", downloadPath);
-
-        /* 驱动可选项配置 */
-        // 配置远端浏览器版本
-        DesiredCapabilities desiredCapabilities = new DesiredCapabilities("chrome", browserVersion, Platform.ANY);
-        ChromeOptions chromeOptions = new ChromeOptions().merge(desiredCapabilities);
-        // 配置下载路径
-        chromeOptions.setExperimentalOption("prefs", downloadMap);
-        // --no-sandbox
-        chromeOptions.addArguments("--no-sandbox");
-        // --disable-dev-shm-usage
-        chromeOptions.addArguments("--disable-dev-shm-usage");
-
-        /* 如果要测手机浏览器 h5 */
-        if (terminal.toLowerCase().equals("h5")) {
-            Map<String, String> mobileMap = new HashMap<>();
-            mobileMap.put("deviceName", deviceName);
-            // 配置 h5 的手机机型等
-            chromeOptions.setExperimentalOption("mobileEmulation", mobileMap);
-        }
-
-        /* 启动 RemoteWebDriver */
-        URL url = null;
-        try {
-            url = new URL("http://" + remoteIP + ":" + remotePort + "/wd/hub/");
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
-        return new RemoteWebDriver(url, chromeOptions);
     }
 }

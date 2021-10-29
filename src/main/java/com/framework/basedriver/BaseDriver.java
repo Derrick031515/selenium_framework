@@ -63,21 +63,14 @@ public class BaseDriver {
      * @param browserName    浏览器名
      * @param terminal       终端 pc/h5
      * @param deviceName     设备名
-     * @param remoteIP       远端 ip
-     * @param remotePort     端口
-     * @param browserVersion 浏览器版本
      * @return WebDriver
      */
-    public WebDriver startBrowser(String browserName, String terminal, String deviceName, String remoteIP, int remotePort, String browserVersion)  throws IOException {
+    public WebDriver startBrowser(String browserName, String terminal, String deviceName)  throws IOException {
         /* 驱动基本信息参数 */
         this.browserName = browserName.toLowerCase();
         /* 终端设备信息参数 */
         this.terminal = terminal.toLowerCase();
         this.deviceName = deviceName;
-        /* hub 信息配置 */
-        this.remoteIP = remoteIP;
-        this.remotePort = remotePort;
-        this.browserVersion = browserVersion;
 
         /* 初始化驱动的责任链中各个对象 */
         DriverHandler headHandler = new HeadHandler();
@@ -93,7 +86,7 @@ public class BaseDriver {
                 .setNext(edgeDriverHandler).setNext(internetExplorerDriverHandler).setNext(tailHandler);
 
         /* 通过责任链启动浏览器 */
-        this.driver = headHandler.start(browserName, terminal, deviceName, remoteIP, remotePort, browserVersion);
+        this.driver = headHandler.start(browserName, terminal, deviceName);
 
         /* 驱动设置等待时长 */
         long implicitlyWait = Long.parseLong(PropertiesReader.getKey("driver.timeouts.implicitlyWait"));

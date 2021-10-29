@@ -20,24 +20,14 @@ public abstract class DriverHandler {
     public DriverHandler next;
 
     /**
-     * 判断启动本地或远端
-     *
      * @param browserName    浏览器名
      * @param terminal       终端 pc/h5
      * @param deviceName     设备名
-     * @param remoteIP       远端 ip
-     * @param remotePort     端口
-     * @param browserVersion 浏览器版本
      * @return WebDriver
      */
-    public WebDriver start(String browserName, String terminal, String deviceName, String remoteIP, int remotePort, String browserVersion) throws IOException {
-        // 通过 remoteIP 是不是空来判定在本地还是远端运行
-        if (remoteIP == null || remoteIP.isEmpty()) {
-            // terminal 为 pc 可以允许 deviceName 为空
-            return startBrowser(browserName, terminal, deviceName);
-        } else {
-            return startBrowser(browserName, terminal, deviceName, remoteIP, remotePort, browserVersion);
-        }
+    public WebDriver start(String browserName, String terminal, String deviceName) throws IOException {
+        // terminal 为 pc 可以允许 deviceName 为空
+        return startBrowser(browserName, terminal, deviceName);
     }
 
     /**
@@ -49,19 +39,6 @@ public abstract class DriverHandler {
      * @return WebDriver
      */
     public abstract WebDriver startBrowser(String browserName, String terminal, String deviceName) throws IOException;
-
-    /**
-     * 运行远端
-     *
-     * @param browserName    浏览器名
-     * @param terminal       终端 pc/h5
-     * @param deviceName     设备名
-     * @param remoteIP       远端 ip
-     * @param remotePort     端口
-     * @param browserVersion 浏览器版本
-     * @return WebDriver
-     */
-    public abstract WebDriver startBrowser(String browserName, String terminal, String deviceName, String remoteIP, int remotePort, String browserVersion) throws IOException;
 
     /**
      * 后继结点赋值

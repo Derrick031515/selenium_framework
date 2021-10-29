@@ -7,7 +7,7 @@ after_all: [ ]
 steps:
   #编程模式
   - testCase_get_first_title:
-      - search_name.new: com.wechat.pageobject.CeshirenPOCodeSearchPageTest
+      - search_name.new: com.pageobject.testcase.CeshirenPOCodeSearchPageTest
       - search_name.get_first_title:
           - get: https://${param}
           - find: [ id, search-button ]
@@ -22,7 +22,7 @@ steps:
               - expect: "${param3}"
               - reason: '搜索成功！'
   - testCase_get_title2:
-      - search_name.new: com.wechat.pageobject.CeshirenPOCodeSearchPageTest
+      - search_name.new: com.pageobject.testcase.CeshirenPOCodeSearchPageTest
       - search_name.get_title2:
           - get: https://www.baidu.com
           - find: [ xpath, "//*[@id='s-top-left']/a[1]" ]
@@ -33,7 +33,7 @@ steps:
               - expect: "${param2}"
               - reason: '定位失败！'
   - testCase_get_title3:
-      - search_name.new: com.wechat.pageobject.CeshirenPOCodeSearchPageTest
+      - search_name.new: com.pageobject.testcase.CeshirenPOCodeSearchPageTest
       - search_name.get_title3:
           - get: https://${param}
           - find: [ id, ember167 ]

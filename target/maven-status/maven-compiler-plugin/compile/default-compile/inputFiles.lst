@@ -12,6 +12,7 @@
 /Derrick/hogwarts/workspace/selenium_framework/src/main/java/com/framework/basetest/BaseTestCaseTearDown.java
 /Derrick/hogwarts/workspace/selenium_framework/src/main/java/com/framework/basedriver/TailHandler.java
 /Derrick/hogwarts/workspace/selenium_framework/src/main/java/com/framework/basetest/BaseTestCaseExcutor.java
+/Derrick/hogwarts/workspace/selenium_framework/src/main/java/com/framework/TestDemo.java
 /Derrick/hogwarts/workspace/selenium_framework/src/main/java/com/framework/util/ScreenshotUtil.java
 /Derrick/hogwarts/workspace/selenium_framework/src/main/java/com/framework/util/PropertiesReader.java
 /Derrick/hogwarts/workspace/selenium_framework/src/main/java/com/framework/basepo/POStore.java
@@ -20,4 +21,3 @@
 /Derrick/hogwarts/workspace/selenium_framework/src/main/java/com/framework/basedriver/OperaDriverHandler.java
 /Derrick/hogwarts/workspace/selenium_framework/src/main/java/com/framework/basedriver/BaseDriver.java
 /Derrick/hogwarts/workspace/selenium_framework/src/main/java/com/framework/basedriver/FirefoxDriverHandler.java
-/Derrick/hogwarts/workspace/selenium_framework/src/main/java/com/framework/basepo/POBasePage_bak.java

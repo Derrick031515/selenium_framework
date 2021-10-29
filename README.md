@@ -33,8 +33,7 @@
     - util
       - **PropertiesReader**：封装读取配置文件操作方法
   - resources
-      - **config**：项目基础配置信息
-      - **drivers**：浏览器驱动文件
+      - **config.properties**：项目基础配置信息
       - **log4j2.xml**：log4j2的配置文件、控制台输出和文件滚动输出
 - test
   - java

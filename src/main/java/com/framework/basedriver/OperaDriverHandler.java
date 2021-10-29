@@ -1,17 +1,12 @@
 package com.framework.basedriver;
 
 import com.framework.util.PropertiesReader;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.opera.OperaOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -68,50 +63,4 @@ public class OperaDriverHandler extends DriverHandler {
         return new OperaDriver(operaOptions);
     }
 
-    /**
-     * 启动远端 opera
-     * todo : 手机浏览器 h5 暂缺
-     *
-     * @param browserName    浏览器名
-     * @param terminal       终端 pc/h5
-     * @param deviceName     设备名
-     * @param remoteIP       远端 ip
-     * @param remotePort     端口
-     * @param browserVersion 浏览器版本
-     * @return WebDriver
-     */
-    @Override
-    public WebDriver startBrowser(String browserName, String terminal, String deviceName, String remoteIP, int remotePort, String browserVersion)  throws IOException{
-        /* 当不是 opera 进入责任链的下一环 */
-        if (!browserName.toLowerCase().equals("opera")) {
-            return next.startBrowser(browserName, terminal, deviceName, remoteIP, remotePort, browserVersion);
-        }
-
-        /* 下载地址设置 */
-        String downloadPath = System.getProperty("user.dir") + File.separator + PropertiesReader.getKey("driver.downloadPath");
-        Map<String, Object> downloadMap = new HashMap<>();
-        downloadMap.put("download.default_directory", downloadPath);
-
-        /* 驱动可选项配置 */
-        // 配置远端浏览器版本
-        DesiredCapabilities desiredCapabilities = new DesiredCapabilities("opera", browserVersion, Platform.ANY);
-        OperaOptions operaOptions = new OperaOptions().merge(desiredCapabilities);
-        // 配置下载路径
-        operaOptions.setExperimentalOption("prefs", downloadMap);
-        // --no-sandbox
-        operaOptions.addArguments("--no-sandbox");
-        // --disable-dev-shm-usage
-        operaOptions.addArguments("--disable-dev-shm-usage");
-
-        /* todo : 如果要测手机浏览器 h5 */
-
-        /* 启动 RemoteWebDriver */
-        URL url = null;
-        try {
-            url = new URL("http://" + remoteIP + ":" + remotePort + "/wd/hub/");
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
-        return new RemoteWebDriver(url, operaOptions);
-    }
 }

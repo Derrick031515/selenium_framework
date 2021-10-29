@@ -1,18 +1,13 @@
 package com.framework.basedriver;
 
 import com.framework.util.PropertiesReader;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
 
 /**
  * 火狐驱动配置
@@ -69,52 +64,4 @@ public class FirefoxDriverHandler extends DriverHandler {
         return new FirefoxDriver(firefoxOptions);
     }
 
-    /**
-     * 启动远端 firefox
-     * todo : 手机浏览器 h5 暂缺
-     *
-     * @param browserName    浏览器名
-     * @param terminal       终端 pc/h5
-     * @param deviceName     设备名
-     * @param remoteIP       远端 ip
-     * @param remotePort     端口
-     * @param browserVersion 浏览器版本
-     * @return WebDriver
-     */
-    @Override
-    public WebDriver startBrowser(String browserName, String terminal, String deviceName, String remoteIP, int remotePort, String browserVersion) throws IOException {
-        /* 当不是 firefox 进入责任链的下一环 */
-        if (!browserName.toLowerCase().equals("firefox")) {
-            return next.startBrowser(browserName, terminal, deviceName, remoteIP, remotePort, browserVersion);
-        }
-
-        /* 下载地址设置 */
-        String downloadPath = System.getProperty("user.dir") + File.separator + PropertiesReader.getKey("driver.downloadPath");
-        FirefoxProfile firefoxProfile = new FirefoxProfile();
-        // 0 表示桌面，1 表示“我的下载”，2 表示自定义
-        firefoxProfile.setPreference("browser.download.folderList", "2");
-        firefoxProfile.setPreference("browser.download.dir", downloadPath);
-
-        /* 驱动可选项配置 */
-        // 配置远端浏览器版本
-        DesiredCapabilities desiredCapabilities = new DesiredCapabilities("firefox", browserVersion, Platform.ANY);
-        FirefoxOptions firefoxOptions = new FirefoxOptions().merge(desiredCapabilities);
-        // 配置下载路径
-        firefoxOptions.setProfile(firefoxProfile);
-        // --no-sandbox
-        firefoxOptions.addArguments("--no-sandbox");
-        // --disable-dev-shm-usage
-        firefoxOptions.addArguments("--disable-dev-shm-usage");
-
-        /* todo : 如果要测手机浏览器 h5 */
-
-        /* 启动 RemoteWebDriver */
-        URL url = null;
-        try {
-            url = new URL("http://" + remoteIP + ":" + remotePort + "/wd/hub/");
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
-        return new RemoteWebDriver(url, firefoxOptions);
-    }
 }
