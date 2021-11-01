@@ -7,7 +7,6 @@ import com.framework.util.PropertiesReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +18,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
 
 
@@ -89,6 +89,7 @@ public class POBasePage extends BasePage {
                     case "get":
                         String url = (String) value;
                         if(url.contains("${param}")){
+                            System.out.println("******"+url);
                             url = url.replaceFirst("\\$\\{param\\}",env);
                         }
                         driver.get(url);
@@ -122,10 +123,34 @@ public class POBasePage extends BasePage {
                         } else if(locator_by.equals("xpath")){
                             WebElement elementXpath = driver.findElement(By.xpath(locator_value));
                             default_by.set(elementXpath);
+                        } else if(locator_by.equals("name")){
+                            WebElement elementXpath = driver.findElement(By.name(locator_value));
+                            default_by.set(elementXpath);
+                        } else if(locator_by.equals("iframe")){
+                            WebElement elementXpath = driver.findElement(By.xpath(locator_value));
+                            driver.switchTo().frame(elementXpath);
+                            default_by.set(elementXpath);
+                        } else if(locator_by.equals("iframe_out")){
+                           driver.switchTo().defaultContent();
+                        } else if(locator_by.equals("currentpage")){
+                            driver.get(driver.getCurrentUrl());
                         }
                         break;
                     case "click":
                         default_by.get().click();
+                        break;
+                    case "wait":
+                        //强制等待
+                        String time = (String) value;
+                        try {
+                            Thread.sleep(Integer.parseInt(time)*1000);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case "refresh":
+                        //刷新页面操作
+                        driver.navigate().refresh();
                         break;
                     case "sendkeys":
                         String keys = (String) value;
@@ -135,26 +160,61 @@ public class POBasePage extends BasePage {
                         }
                         default_by.get().sendKeys(keys);
                         break;
-                    case "gettext":
-                        /*ArrayList<String> valuesText = (ArrayList<String>) value;
+                    case "getassertstext":
+                        ArrayList<String> valuesText = (ArrayList<String>) value;
                         String locator_by_key = valuesText.get(0);
                         String locator_by_value = valuesText.get(1);
                         if (locator_by_key.equals("id")) {
-                            result = driver.findElement(By.id(locator_by_value)).getText();
+                            result = "结果包含断言字段：" + driver.findElement(By.id(locator_by_value)).getText();
+                        } else if(locator_by_key.equals("ids_size")){
+                            result = "集合元素列表大小为：" + driver.findElements(By.xpath(locator_by_value)).size()+"";
+                        } else if(locator_by_key.contains("ids_index_")){
+                            String[] indexStr = locator_by_key.split("_");
+                            int index = Integer.parseInt(indexStr[2]);
+                            result = "结果包含断言字段：" + driver.findElements(By.id(locator_by_value)).get(index).getText();
+                        } else if(locator_by_key.contains("ids_fieldNameValue")){//--TODO 有问题
+                            String[] indexStr = locator_by_key.split("_");
+                            AtomicBoolean flag = new AtomicBoolean(false);
+                            driver.findElements(By.id(locator_by_value)).forEach(ele->{
+                                if(ele.getText().contains(indexStr[1])){
+                                    flag.set(true);
+                                }
+                            });
+                            if(flag.get()){
+                                result = "结果包含断言字段：" + indexStr[1];
+                            }
+                            result = "结果不包含断言字段："+indexStr[1];
                         } else if (locator_by_key.equals("css")) {
-                            result = driver.findElement(By.cssSelector(locator_by_value)).getText();
+                            result = "结果包含断言字段：" + driver.findElement(By.cssSelector(locator_by_value)).getText();
                         } else if (locator_by_key.equals("link_text")){
-                            result = driver.findElement(By.partialLinkText(locator_by_value)).getText();
+                            result = "结果包含断言字段：" + driver.findElement(By.partialLinkText(locator_by_value)).getText();
+                        } else if (locator_by_key.equals("name")){
+                            result = "结果包含断言字段：" + driver.findElement(By.name(locator_by_value)).getText();
                         } else if(locator_by_key.equals("xpath")){
-                            result = driver.findElement(By.xpath(locator_by_value)).getText();
-                        }*/
-
-                        result = default_by.get().getText();
+                            result = "结果包含断言字段：" + driver.findElement(By.xpath(locator_by_value)).getText();
+                        } else if(locator_by_key.equals("xpath_size")){
+                            result = "集合元素列表大小为：" + driver.findElements(By.xpath(locator_by_value)).size()+"";
+                        } else if(locator_by_key.contains("xpath_index_")){
+                            String[] indexStr = locator_by_key.split("_");
+                            int index = Integer.parseInt(indexStr[2]);
+                            result = "结果包含断言字段：" + driver.findElements(By.id(locator_by_value)).get(index).getText();
+                        } else if(locator_by_key.contains("xpath_fieldNameValue")){//--TODO 有问题
+                            String[] indexStr = locator_by_key.split("_");
+                            AtomicBoolean flag = new AtomicBoolean(false);
+                            driver.findElements(By.id(locator_by_value)).forEach(ele->{
+                                if(ele.getText().contains(indexStr[1])){
+                                    flag.set(true);
+                                }
+                            });
+                            if(flag.get()){
+                                result = "结果包含断言字段："+indexStr[1];
+                            }
+                            result = "结果不包含断言字段："+indexStr[1];
+                        }
 
                         resList.add(result);
                         break;
                 }
-
             });
         });
 

@@ -1,0 +1,120 @@
+name: search_name
+before_all: [ ]
+after_all: [ ]
+
+steps:
+      #编程模式
+      - testCase_addDepartment:
+              - search_name.new: com.wechat.pageobject.testcase.WeChatContactTest
+              - search_name.addDepartment:
+                      - get: https://work.weixin.qq.com/wework_admin/loginpage_wx
+                      - wait: "1"
+                      - find: [ xpath, "//*[@id='menu_contacts']/span" ]
+                      - click:
+                      - find: [ xpath, "//*[@id='js_contacts50']/div/div[1]/div/div[1]/a/i" ]
+                      - click:
+                      - find: [ xpath, "//*[@id='js_contacts50']/div/div[1]/ul/li[1]/a" ]
+                      - click:
+                      - find: [ xpath, "//*[@id='__dialog__MNDialog__']/div/div[2]/div/form/div[1]/input"]
+                      - sendkeys: "${param1}"
+                      - find: [ xpath, "//*[@id='__dialog__MNDialog__']/div/div[2]/div/form/div[3]/a"]
+                      - click:
+                      - find: [ ids_1, "1688855890239805_anchor" ]
+                      - click:
+                      - find: [ xpath, "//*[@id='__dialog__MNDialog__']/div/div[3]/a[1]"]
+                      - click:
+                      - getAssertsText: [ xpath, "//*[@id='1688855890239805']/ul/li/a" ]
+                      - asserts:
+                              - actual: "获取创建部门名称"
+                              - matcher: "${param2}"
+                              - expect: "${param3}"
+                              - reason: '创建部门失败！'
+      - testCase_deleteDepartment:
+              - search_name.new: com.wechat.pageobject.testcase.WeChatContactTest
+              - search_name.deleteDepartment:
+                      - get: https://work.weixin.qq.com/wework_admin/loginpage_wx
+                      - wait: "1"
+                      - find: [ xpath, "//*[@id='menu_contacts']/span"]
+                      - click:
+                      - find: [ xpath, "//*[@id='1688855890239805']/ul/li/a"]
+                      - click:
+                      - find: [ xpath, "/html/body/div[1]/div/div/main/div/div/div[1]/div/div[2]/div[2]/ul/li/ul/li/a/span"]
+                      - click:
+                      - find: [ xpath, "/html/body/ul/li[7]/a"]
+                      - click:
+                      - find: [ xpath, "//*[@id='__dialog__MNDialog__']/div/div[3]/a[1]"]
+                      - click:
+                      - refresh:
+                      - getAssertsText: [ xpath_size, "//*[@id='search_party_list']/li" ]
+                      - asserts:
+                              - actual: "获取子部门列表大小"
+                              - matcher: "${param1}"
+                              - expect: "${param2}"
+                              - reason: '删除部门失败！'
+      - testCase_updateDepartment:
+              - search_name.new: com.wechat.pageobject.testcase.WeChatContactTest
+              - search_name.updateDepartment:
+                     - get: https://work.weixin.qq.com/wework_admin/loginpage_wx
+                     - wait: "1"
+                     - find: [ xpath, "//*[@id='menu_contacts']/span" ]
+                     - click:
+                     - find: [ xpath, "//*[@id='1688855890239805']/ul/li/a" ]
+                     - click:
+                     - find: [ xpath, "/html/body/div[1]/div/div/main/div/div/div[1]/div/div[2]/div[2]/ul/li/ul/li/a/span" ]
+                     - click:
+                     - find: [ xpath, "/html/body/ul/li[3]/a" ]
+                     - click:
+                     - find: [ xpath, "//*[@id='__dialog__MNDialog__']/div/div[2]/div/form/div[1]/input" ]
+                     - sendkeys: "${param1}"
+                     - find: [ xpath, "//*[@id='__dialog__MNDialog__']/div/div[3]/a[1]" ]
+                     - click:
+                     - refresh:
+                     - getAssertsText: [ xpath, "//*[@id='1688855890239805']/ul/li/a" ]
+                     - asserts:
+                              - actual: "获取更新后的子部门名称"
+                              - matcher: "${param2}"
+                              - expect: "${param3}"
+                              - reason: '更新子部门名称失败！'
+      - testCase_searchDepartment:
+              - search_name.new: com.wechat.pageobject.testcase.WeChatContactTest
+              - search_name.searchDepartment:
+                     - get: https://work.weixin.qq.com/wework_admin/loginpage_wx
+                     - wait: "1"
+                     - find: [ xpath, "//*[@id='menu_contacts']/span" ]
+                     - click:
+                     - find: [ xpath, "//*[@id='memberSearchInput']" ]
+                     - sendkeys: "${param1}"
+                     - wait: "1"
+                     - getAssertsText: [ xpath_size, "//*[@id='search_party_list']/li" ]
+                     - asserts:
+                              - actual: "获取查询子部门名称元素列表"
+                              - matcher: "${param2}"
+                              - expect: "${param3}"
+                              - reason: '搜索子部门名称失败！'
+      - testCase_addDepartmentMember:
+            - search_name.new: com.wechat.pageobject.testcase.WeChatContactTest
+            - search_name.addDepartmentMember:
+                    - get: https://work.weixin.qq.com/wework_admin/loginpage_wx
+                    - wait: "1"
+                    - find: [ xpath, "//*[@id='menu_contacts']/span" ]
+                    - click:
+                    - wait: "3"
+                    - find: [ link_text, "添加成员" ]
+                    - click:
+                    - wait: "2"
+                    - find: [ name, "username" ]
+                    - sendkeys: "${param1}"
+                    - find: [ name, "acctid"]
+                    - sendkeys: "${param2}"
+                    - find: [ name, "mobile"]
+                    - sendkeys: "${param3}"
+                    - find: [ link_text, "保存"]
+                    - click:
+                    - wait: "3"
+                    - refresh:
+                    - getAssertsText: [ xpath, "//*[@id='member_list']/tr[2]/td[2]" ]
+                    - asserts:
+                             - actual: "获取创建部门成员名称"
+                             - matcher: "${param4}"
+                             - expect: "${param5}"
+                             - reason: '添加部门成员失败！'

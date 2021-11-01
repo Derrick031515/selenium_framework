@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: com.wechat.pageobject.testcase.WeChatContactTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 3, Skipped: 1, Time elapsed: 155.614 s <<< FAILURE! - in com.wechat.pageobject.testcase.WeChatContactTest
+addDepartment{POBaseData}[1]  Time elapsed: 17.05 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='js_contacts50']/div/div[1]/div/div[1]/a/i"}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Derrick.local', ip: 'fe80:0:0:0:1012:7675:a4e2:6f79%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /var/folders/1y/pp3cf5693d3...}, goog:chromeOptions: {debuggerAddress: localhost:61921}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1cd5cd4512dfdb18b5127aa149b07896
+*** Element info: {Using=xpath, value=//*[@id='js_contacts50']/div/div[1]/div/div[1]/a/i}
+	at com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0(WeChatContactTest.java:147)
+	at com.wechat.pageobject.testcase.WeChatContactTest.lambda$startMethod$1(WeChatContactTest.java:145)
+	at com.wechat.pageobject.testcase.WeChatContactTest.startMethod(WeChatContactTest.java:141)
+	at com.wechat.pageobject.testcase.WeChatContactTest.addDepartment(WeChatContactTest.java:210)
+
+updateDepartment{POBaseData}[1]  Time elapsed: 17.133 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='1688855890239805']/ul/li/a"}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Derrick.local', ip: 'fe80:0:0:0:1012:7675:a4e2:6f79%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /var/folders/1y/pp3cf5693d3...}, goog:chromeOptions: {debuggerAddress: localhost:61921}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1cd5cd4512dfdb18b5127aa149b07896
+*** Element info: {Using=xpath, value=//*[@id='1688855890239805']/ul/li/a}
+	at com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0(WeChatContactTest.java:147)
+	at com.wechat.pageobject.testcase.WeChatContactTest.lambda$startMethod$1(WeChatContactTest.java:145)
+	at com.wechat.pageobject.testcase.WeChatContactTest.startMethod(WeChatContactTest.java:141)
+	at com.wechat.pageobject.testcase.WeChatContactTest.updateDepartment(WeChatContactTest.java:236)
+
+deleteDepartment{POBaseData}[1]  Time elapsed: 17.12 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='1688855890239805']/ul/li/a"}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Derrick.local', ip: 'fe80:0:0:0:1012:7675:a4e2:6f79%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /var/folders/1y/pp3cf5693d3...}, goog:chromeOptions: {debuggerAddress: localhost:61921}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1cd5cd4512dfdb18b5127aa149b07896
+*** Element info: {Using=xpath, value=//*[@id='1688855890239805']/ul/li/a}
+	at com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0(WeChatContactTest.java:147)
+	at com.wechat.pageobject.testcase.WeChatContactTest.lambda$startMethod$1(WeChatContactTest.java:145)
+	at com.wechat.pageobject.testcase.WeChatContactTest.startMethod(WeChatContactTest.java:141)
+	at com.wechat.pageobject.testcase.WeChatContactTest.deleteDepartment(WeChatContactTest.java:223)
+
+com.wechat.pageobject.testcase.WeChatContactTest  Time elapsed: 22.099 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.AssertionError: 搜索子部门名称失败！
+Expected: "集合元素列表大小为：1"
+     but: was "集合元素列表大小为：0"
+	at com.wechat.pageobject.testcase.WeChatContactTest.tearDown(WeChatContactTest.java:91)
+

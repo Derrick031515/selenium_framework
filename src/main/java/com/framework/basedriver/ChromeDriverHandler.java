@@ -38,10 +38,10 @@ public class ChromeDriverHandler extends DriverHandler {
             return next.startBrowser(browserName, terminal, deviceName);
         }
 
-        /* 下载地址设置 */
+        /* 下载地址设置 *//*
         String downloadPath = System.getProperty("user.dir") + File.separator + PropertiesReader.getKey("driver.downloadPath");
         Map<String, Object> downloadMap = new HashMap<>();
-        downloadMap.put("download.default_directory", downloadPath);
+        downloadMap.put("download.default_directory", downloadPath);*/
 
         /* 驱动可选项配置 */
         ChromeOptions chromeOptions = new ChromeOptions();
@@ -53,17 +53,21 @@ public class ChromeDriverHandler extends DriverHandler {
         chromeOptions.addArguments("--disable-dev-shm-usage");
 //        chromeOptions.addArguments("--headless");*/
         //解决DevToolsActivePort文件不存在的报错
-        chromeOptions.addArguments("--no-sandbox");
+        /* chromeOptions.addArguments("--no-sandbox");
         //指定浏览器分辨率
-        chromeOptions.addArguments("window-size=1920x3000") ;
+        chromeOptions.addArguments("--window-size=1200,600") ;
         //谷歌文档提到需要加上这个属性来规避bug
         chromeOptions.addArguments("--disable-gpu") ;
         //隐藏滚动条, 应对一些特殊页面
         chromeOptions.addArguments("--hide-scrollbars") ;
         //不加载图片, 提升速度
         chromeOptions.addArguments("blink-settings=imagesEnabled=false");
+        chromeOptions.addArguments("--user-agent=" +
+                " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36" +
+                " (KHTML, like Gecko) HeadlessChrome/95.0.4638.54 Safari/537.36") ;*/
         //浏览器不提供可视化页面. linux下如果系统不支持可视化不加这条会启动失败
-        chromeOptions.addArguments("--headless") ;
+//        chromeOptions.addArguments("--headless") ;
+
 
         /* 如果要测手机浏览器 h5 */
         if (terminal.toLowerCase().equals("h5")) {

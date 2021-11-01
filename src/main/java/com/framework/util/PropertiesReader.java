@@ -50,7 +50,7 @@ public class PropertiesReader {
      * @return 键值
      */
     public static String getKey(String key) throws IOException {
-        Properties properties = PropertiesReader.readProperties("src/main/resources/config.properties");
+        Properties properties = PropertiesReader.readProperties("src/main/resources/config.properties");;
         String property = properties.getProperty(key);
 
         return property;
@@ -60,7 +60,7 @@ public class PropertiesReader {
      * 依据键名获取配置文件中的键值
      */
     public static HashMap<String, String> getConfigKey() throws IOException {
-        Properties properties = PropertiesReader.readProperties("src/main/resources/config.properties");
+        Properties properties = PropertiesReader.readProperties("src/main/resources/config.properties");;
         String browserName = properties.getProperty("driver.browserName");
         String terminal = properties.getProperty("driver.terminal");
         String deviceName = properties.getProperty("driver.deviceName");
@@ -69,6 +69,7 @@ public class PropertiesReader {
         configKeyMap.put("browserName",browserName);
         configKeyMap.put("terminal",terminal);
         configKeyMap.put("deviceName",deviceName);
+
 
         return configKeyMap;
     }

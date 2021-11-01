@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.abcnull</groupId>
+    <groupId>com.selenium.framework</groupId>
     <artifactId>webui-test</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -208,5 +208,79 @@
             </plugin>
         </plugins>
 
+        <!-- 这里设置构建的文件名；默认情况下文件名为：artifactId+version -->
+        <finalName>seleniumframe</finalName>
+        <!-- 构建产生的所有的文件存放的目录；默认情况下为根目录下的target文件夹，即：${basedir}/target -->
+        <directory>${basedir}/target/CC</directory>
+
+        <!-- 配置要使用的filter文件，这个要配合<resources/>来使用-->
+        <filters>
+            <!-- 配置要使用的filter文件的路径，用于替换掉含有变量定义的文件；常用于多环境配置多个配置文件的情况 -->
+            <filter>src/main/resources/${env}.properties</filter>
+        </filters>
+
+        <!-- 用于定义哪些目录下的文件会被filters中指定的filter文件进行变量的替换 -->
+        <resources>
+            <resource>
+                <!-- 这里设定要替换内容的文件所在的文件夹，即：src/main/resources -->
+                <directory>src/main/resources</directory>
+                <!-- 启用过滤器 -->
+                <filtering>true</filtering>
+                <!-- 替换那些类型的源文件 -->
+                <includes>
+                    <!--
+                        配置多个需要替换的原资源文件时， 需要配置多个include
+                        *.xml:当前目录下以xml结尾的文件
+                        **/*.xml:当前目录及其子目录下以xml结尾的文件
+                     -->
+                    <include>**/*.xml</include>
+                    <include>**/*.conf</include>
+                </includes>
+                <!-- 不需要替换的源文件类型，打包后的classes目录下没有该文件 -->
+                <excludes>
+                    <exclude>**/*.hib.conf</exclude>
+                </excludes>
+                <!-- 打包后资源文件存放的位置 -->
+                <!--  <targetPath>config</targetPath>-->
+            </resource>
+        </resources>
+
     </build>
+
+    <!-- 配置项目的profiles,一般用于多环境的情况 -->
+    <profiles>
+        <!-- dev环境 -->
+        <profile>
+            <id>dev</id>
+            <properties>
+                <!-- 定义一个变量，在filter中配置filter文件（配置文件）的路径的时候使用 -->
+                <env>dev</env>
+            </properties>
+            <activation>
+                <!-- 设置默认**状态，即默认使用dev.properties；默认为：false -->
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <!-- test环境 -->
+        <profile>
+            <id>uat</id>
+            <properties>
+                <env>uat</env>
+            </properties>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+        </profile>
+        <!-- product环境 -->
+        <profile>
+            <id>product</id>
+            <properties>
+                <env>product</env>
+            </properties>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+        </profile>
+    </profiles>
+
 </project>

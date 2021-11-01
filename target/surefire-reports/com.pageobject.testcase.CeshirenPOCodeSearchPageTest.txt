@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.pageobject.testcase.CeshirenPOCodeSearchPageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.351 s <<< FAILURE! - in com.pageobject.testcase.CeshirenPOCodeSearchPageTest
+get_first_title{POBaseData}[1]  Time elapsed: 0.082 s  <<< ERROR!
+java.lang.IllegalArgumentException: named capturing group is missing trailing '}'
+	at com.pageobject.testcase.CeshirenPOCodeSearchPageTest.lambda$null$0(CeshirenPOCodeSearchPageTest.java:127)
+	at com.pageobject.testcase.CeshirenPOCodeSearchPageTest.lambda$startMethod$1(CeshirenPOCodeSearchPageTest.java:125)
+	at com.pageobject.testcase.CeshirenPOCodeSearchPageTest.startMethod(CeshirenPOCodeSearchPageTest.java:121)
+	at com.pageobject.testcase.CeshirenPOCodeSearchPageTest.get_first_title(CeshirenPOCodeSearchPageTest.java:144)
+

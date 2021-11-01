@@ -1,0 +1,41 @@
+name: search_name
+before_all: [ ]
+after_all: [ ]
+
+steps:
+      #编程模式
+      - testCase_addAnnouncement:
+              - search_name.new: com.wechat.pageobject.testcase.WeChatAnnouncementTest
+              - search_name.addAnnouncement:
+                      - get: https://work.weixin.qq.com/wework_admin/loginpage_wx
+                      - wait: "1"
+                      - find: [ xpath, "//*[@id='menu_apps']/span" ]
+                      - click:
+                      - find: [ xpath, "//*[@id='main']/div/div/div[2]/div/div[3]/div[2]/div[11]/div[2]/div[1]" ]
+                      - click:
+                      - find: [ link_text, "发公告" ]
+                      - click:
+                      - wait: "1"
+                      - find: [ xpath, "//*[@id='main']/div/div[1]/div[2]/div[2]/div[1]/a" ]
+                      - click:
+                      - find: [ xpath, "/html/body/div[5]/div/div[3]/div/div/a" ]
+                      - click:
+                      - find: [ link_text, "确认" ]
+                      - click:
+                      - find: [ xpath, "//*[@id='main']/div/div[1]/div[2]/div[4]/div[1]/div/div[3]/input"]
+                      - sendkeys: "${param1}"
+                      - find: [ iframe, "//*[@id='main']/div/div[1]/div[2]/div[4]/div[1]/div/div[4]/div/div[2]/iframe"]
+                      - find: [ xpath, "//*/body" ]
+                      - sendkeys: "${param2}"
+                      - find: [ iframe_out ]
+                      - click:
+                      - find: [ xpath, "//*[@id='main']/div/div[1]/div[2]/div[7]/div[2]/input" ]
+                      - sendkeys: "${param3}"
+                      - find: [ link_text, "确认" ]
+                      - click:
+                      - getAssertsText: [ xpath, "//*[@id='messageListContent']/tr[2]/td[2]/span" ]
+                      - asserts:
+                              - actual: "发布公告"
+                              - matcher: "${param4}"
+                              - expect: "${param5}"
+                              - reason: '发布公告失败！'

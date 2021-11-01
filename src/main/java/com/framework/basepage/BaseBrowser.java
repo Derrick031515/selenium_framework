@@ -67,22 +67,15 @@ public class BaseBrowser {
      */
     public BaseBrowser() {
         try {
-            log.info("开始加载浏览器配置信息");
+            log.info("浏览器启动中...");
             HashMap<String, String> configKey = PropertiesReader.getConfigKey();
             String browserName = configKey.get("browserName");
             String terminal = configKey.get("terminal");
             String deviceName = configKey.get("deviceName");
 
-            log.info("browserName="+browserName);
-            log.info("terminal="+terminal);
-            log.info("deviceName="+deviceName);
-
             /* 驱动配置 */
             baseDriver = new BaseDriver();
             this.driver = baseDriver.startBrowser(browserName, terminal, deviceName);
-            log.info("BBBrowser="+driver);
-            log.info("BBBbaseDriver="+baseDriver);
-            log.info("加载配置信息结束");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -114,33 +107,6 @@ public class BaseBrowser {
         this.redisUtil = redisUtil;
     }
 
-    /*static{
-        try {
-            log.info("开始加载浏览器配置信息");
-            HashMap<String, String> configKey = PropertiesReader.getConfigKey();
-            String browserName = configKey.get("browserName");
-            String terminal = configKey.get("terminal");
-            String deviceName = configKey.get("deviceName");
-            int remotePort = Integer.parseInt(configKey.get("remotePort"));
-            String remoteIP = configKey.get("remoteIP");
-            String browserVersion = configKey.get("browserVersion");
-
-            log.info("browserName="+browserName);
-            log.info("terminal="+terminal);
-            log.info("deviceName="+deviceName);
-            log.info("remotePort="+remotePort);
-            log.info("remoteIP="+remoteIP);
-            log.info("browserVersion="+browserVersion);
-            *//* 驱动配置 *//*
-            baseDriver = new BaseDriver();
-            driver = baseDriver.startBrowser(browserName, terminal, deviceName, remoteIP, remotePort, browserVersion);
-            log.info("加载配置信息结束");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-    }
-*/
     /*============================== 基本元素操作 ==============================*/
 
     /**

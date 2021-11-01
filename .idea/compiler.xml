@@ -4,9 +4,9 @@
     <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-Djps.track.ap.dependencies=false" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+      <profile name="Annotation profile for WebUI Test Web App" enabled="true">
+        <sourceOutputDir name="target/CC/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/CC/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="webui-test" />
       </profile>

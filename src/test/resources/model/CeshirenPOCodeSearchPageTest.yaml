@@ -1,9 +1,7 @@
 name: search_name
 before_all: [ ]
 after_all: [ ]
-#data:
-#  - 内推 BAT
-#  - 定向班第5期
+
 steps:
   #编程模式
   - testCase_get_first_title:
@@ -15,7 +13,7 @@ steps:
           - find: [ id, search-term ]
           - sendkeys: "${param1}"
           - find: [ css, .topic-title ]
-          - getText: [ css, .topic-title ]
+          - getAssertsText: [ css, .topic-title ]
           - asserts:
               - actual: getText
               - matcher: "${param2}"
@@ -26,7 +24,7 @@ steps:
       - search_name.get_title2:
           - get: https://www.baidu.com
           - find: [ xpath, "//*[@id='s-top-left']/a[1]" ]
-          - getText: [ xpath, "//*[@id='s-top-left']/a[1]" ]
+          - getAssertsText: [ xpath, "//*[@id='s-top-left']/a[1]" ]
           - asserts:
               - actual: getText
               - matcher: "${param1}"
@@ -39,7 +37,7 @@ steps:
           - find: [ id, ember167 ]
           - click:
           - find: [ id, whos-online ]
-          - getText: [ id, whos-online ]
+          - getAssertsText: [ id, whos-online ]
           - asserts:
               - actual: getText
               - matcher: "${param1}"

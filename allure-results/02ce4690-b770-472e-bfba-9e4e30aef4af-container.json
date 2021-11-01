@@ -1,0 +1,1 @@
+{"uuid":"02ce4690-b770-472e-bfba-9e4e30aef4af","name":"[1] POBaseData(data=[{addDepartment=[{num=1, param1=测试部门, param2=contains, param3=结果包含断言字段：测试部门}]}, {deleteDepartment=[{num=1, param1=equalTo, param2=集合元素列表大小为：0}]}])","children":["c86994d3-11d5-4e2d-81a9-7110a351e9e7"],"befores":[],"afters":[],"links":[],"start":1635657248130,"stop":1635657270257}

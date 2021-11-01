@@ -69,12 +69,6 @@ public class CeshirenPOCodeSearchPageTest extends POBasePage {
         env = PropertiesReader.getKey("pro.env");
     }
 
-    @Test
-    void tests(){
-        System.out.println("baseDriver_2="+baseDriver);
-        System.out.println("driver_2="+driver);
-    }
-
     @AfterAll
     static void tearDown() throws InterruptedException {
         /**
@@ -147,7 +141,6 @@ public class CeshirenPOCodeSearchPageTest extends POBasePage {
     public void get_first_title(POBaseData poBaseData) {
         //获取当前方法名称
         String methodName = Thread.currentThread().getStackTrace()[1].getMethodName();
-        System.out.println("driver="+this.driver);
         startMethod(poBaseData,methodName,baseTestCaseExcutor,driver);
     }
 

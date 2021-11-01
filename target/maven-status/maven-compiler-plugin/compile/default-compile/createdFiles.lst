@@ -1,6 +1,5 @@
 com/framework/basedriver/TailHandler.class
 com/framework/util/WordartDisplayer.class
-com/framework/basetest/BaseTestCaseTearDown.class
 com/framework/basedriver/InternetExplorerDriverHandler.class
 com/framework/basepo/POStore.class
 com/framework/util/RedisUtil.class
@@ -16,7 +15,6 @@ com/framework/basedriver/HeadHandler.class
 com/framework/basedriver/EdgeDriverHandler.class
 com/framework/constant/TestConstant.class
 com/framework/basetest/BaseTestCaseExcutor.class
-com/framework/TestDemo.class
 com/framework/basepage/BasePage.class
 com/framework/util/PropertiesReader.class
 com/framework/basedriver/OperaDriverHandler.class

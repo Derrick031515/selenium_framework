@@ -1,0 +1,1138 @@
+2021-10-31 12:19:23.630 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 12:19:23.633 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 12:19:23.635 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 12:19:25.405 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 12:19:25.405 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 12:19:25.506 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 12:19:40.238 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 12:19:50.326 [main-129] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartment }
+2021-10-31 12:19:50.333 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 12:20:02.823 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 12:20:02.824 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 12:20:02.824 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 12:20:02.825 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 结果包含断言字段：测试部门 }
+2021-10-31 12:20:02.826 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 12:20:02.827 [main-140] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ addDepartment }测试用例执行结束
+2021-10-31 12:20:07.885 [main-129] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ deleteDepartment }
+2021-10-31 12:20:07.895 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 12:20:34.143 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 2 }条用例，测试用例开始统一断言
+2021-10-31 12:20:34.149 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 12:20:34.150 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 12:20:37.359 [main-139] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-31 12:20:37.360 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 12:33:57.147 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 12:33:57.150 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 12:33:57.152 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 12:33:58.855 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 12:33:58.856 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 12:33:58.973 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 12:34:12.905 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 12:34:22.996 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartment }
+2021-10-31 12:34:22.997 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 12:34:35.110 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 12:34:35.111 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 12:34:35.111 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 12:34:35.112 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 结果包含断言字段：测试部门 }
+2021-10-31 12:34:35.112 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 12:34:35.113 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ addDepartment }测试用例执行结束
+2021-10-31 12:34:40.952 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ deleteDepartment }
+2021-10-31 12:34:40.953 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 12:35:07.855 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 2 }条用例，测试用例开始统一断言
+2021-10-31 12:35:07.862 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 12:35:07.863 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 12:35:11.069 [main-139] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-31 12:35:11.070 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 12:44:21.655 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 12:44:21.658 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 12:44:21.659 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 12:44:23.301 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 12:44:23.302 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 12:44:23.494 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 12:44:36.938 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 12:44:47.038 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartment }
+2021-10-31 12:44:47.039 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 12:44:59.242 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 12:44:59.244 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 12:44:59.257 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 12:44:59.258 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 结果包含断言字段：测试部门 }
+2021-10-31 12:44:59.261 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 12:44:59.262 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ addDepartment }测试用例执行结束
+2021-10-31 12:45:04.405 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ deleteDepartment }
+2021-10-31 12:45:04.406 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 12:45:04.440 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 2 }条用例，测试用例开始统一断言
+2021-10-31 12:45:04.447 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 12:45:04.447 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 12:49:06.509 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 12:49:06.512 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 12:49:06.513 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 12:49:08.442 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 12:49:08.443 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 12:49:08.547 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 12:49:20.513 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 12:49:30.597 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartment }
+2021-10-31 12:49:30.598 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 12:50:02.649 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 12:50:02.652 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 12:50:02.654 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 12:50:04.328 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 12:50:04.330 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 12:50:04.445 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 12:50:17.718 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 12:50:27.800 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartment }
+2021-10-31 12:50:27.801 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 12:50:45.348 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ deleteDepartment }
+2021-10-31 12:50:45.349 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 12:50:57.713 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 2 }条用例，测试用例开始统一断言
+2021-10-31 12:50:57.720 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 12:50:57.734 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 12:51:00.903 [main-139] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-31 12:51:00.903 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 12:54:40.635 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 12:54:40.639 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 12:54:40.641 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 12:54:42.426 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 12:54:42.426 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 12:54:42.584 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 12:54:55.927 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 12:55:06.018 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartment }
+2021-10-31 12:55:06.019 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 12:55:18.274 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 12:55:18.275 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 12:55:18.275 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 12:55:18.276 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 结果包含断言字段：测试部门 }
+2021-10-31 12:55:18.277 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 12:55:18.277 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ addDepartment }测试用例执行结束
+2021-10-31 12:55:23.332 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ deleteDepartment }
+2021-10-31 12:55:23.332 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 12:55:49.586 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 2 }条用例，测试用例开始统一断言
+2021-10-31 12:55:49.593 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 12:55:49.593 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 12:55:52.848 [main-139] INFO  com.framework.basedriver.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-10-31 12:55:52.848 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 12:57:32.430 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 12:57:32.433 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 12:57:32.434 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 12:57:34.074 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 12:57:34.074 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 12:57:34.295 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 12:57:47.516 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 12:57:57.607 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartment }
+2021-10-31 12:57:57.607 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 12:58:09.812 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 12:58:09.813 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 12:58:09.814 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 12:58:09.814 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 结果包含断言字段：测试部门 }
+2021-10-31 12:58:09.815 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 12:58:09.815 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ addDepartment }测试用例执行结束
+2021-10-31 12:58:14.880 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ deleteDepartment }
+2021-10-31 12:58:14.880 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 12:58:41.018 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 2 }条用例，测试用例开始统一断言
+2021-10-31 12:58:41.024 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 12:58:41.025 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 12:58:41.025 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 13:01:06.500 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 13:01:06.503 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 13:01:06.504 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 13:01:08.200 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 13:01:08.200 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 13:01:08.304 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 13:01:23.058 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 13:01:33.152 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartment }
+2021-10-31 13:01:33.154 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 13:01:45.462 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 13:01:45.463 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 13:01:45.464 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 13:01:45.464 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 结果包含断言字段：测试部门 }
+2021-10-31 13:01:45.465 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 13:01:45.465 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ addDepartment }测试用例执行结束
+2021-10-31 13:01:50.547 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ deleteDepartment }
+2021-10-31 13:01:50.554 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 13:02:16.754 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 2 }条用例，测试用例开始统一断言
+2021-10-31 13:02:16.760 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 13:02:16.761 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 13:02:16.761 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 13:04:41.027 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 13:04:41.032 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 13:04:41.033 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 13:04:42.940 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 13:04:42.940 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 13:04:43.044 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 13:04:57.802 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 13:05:07.907 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ deleteDepartment }
+2021-10-31 13:05:07.907 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 13:05:34.028 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 13:05:34.034 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 13:05:34.035 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 13:05:34.035 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 13:10:57.140 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 13:10:57.144 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 13:10:57.146 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 13:10:58.934 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 13:10:58.935 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 13:10:59.069 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 13:11:10.722 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 13:11:20.826 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ deleteDepartment }
+2021-10-31 13:11:20.827 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 13:11:32.536 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 集合元素列表大小为：1 }
+2021-10-31 13:11:32.538 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 13:11:32.539 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 集合元素列表大小为：1 }
+2021-10-31 13:11:32.548 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 集合元素列表大小为：0 }
+2021-10-31 13:11:32.550 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 13:11:32.551 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ deleteDepartment }测试用例执行结束
+2021-10-31 13:11:32.625 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 13:13:53.279 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 13:13:53.281 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 13:13:53.283 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 13:13:54.928 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 13:13:54.929 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 13:13:55.150 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 13:14:08.097 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 13:14:18.187 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartment }
+2021-10-31 13:14:18.188 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 13:14:30.213 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 13:14:30.214 [main-110] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 13:14:30.215 [main-111] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 13:14:30.215 [main-112] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果包含字段{ 结果包含断言字段：测试部门 }
+2021-10-31 13:14:30.217 [main-114] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 13:14:30.217 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ addDepartment }测试用例执行结束
+2021-10-31 13:14:35.277 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ deleteDepartment }
+2021-10-31 13:14:35.278 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 13:14:46.611 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 集合元素列表大小为：1 }
+2021-10-31 13:14:46.618 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 13:14:46.619 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 集合元素列表大小为：1 }
+2021-10-31 13:14:46.619 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 集合元素列表大小为：0 }
+2021-10-31 13:14:46.620 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 13:14:46.620 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ deleteDepartment }测试用例执行结束
+2021-10-31 13:14:46.625 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 2 }条用例，测试用例开始统一断言
+2021-10-31 16:04:06.867 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 16:04:06.872 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 16:04:06.874 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 16:04:08.502 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 16:04:08.502 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 16:04:08.616 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 16:04:20.273 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 16:04:30.374 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ updateDepartment }
+2021-10-31 16:04:30.376 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 16:04:43.486 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 结果包含断言字段：研发部门 }
+2021-10-31 16:04:43.487 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 16:04:43.488 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 结果包含断言字段：研发部门 }
+2021-10-31 16:04:43.488 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 16:04:43.489 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 16:04:43.498 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ updateDepartment }测试用例执行结束
+2021-10-31 16:04:43.570 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 16:20:29.513 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 16:20:29.519 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 16:20:29.521 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 16:20:35.220 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 16:20:35.220 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 16:20:35.325 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 16:20:47.169 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 16:20:57.258 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ updateDepartmentMember }
+2021-10-31 16:20:57.271 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ updateDepartmentMember }测试用例执行结束
+2021-10-31 16:20:57.333 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 0 }条用例，测试用例开始统一断言
+2021-10-31 16:20:57.349 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 16:20:57.350 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 16:20:57.350 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 16:22:45.765 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 16:22:45.769 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 16:22:45.770 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 16:22:51.396 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 16:22:51.397 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 16:22:51.500 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 16:23:04.334 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 16:23:14.438 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ updateDepartmentMember }
+2021-10-31 16:23:14.439 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ updateDepartmentMember }测试用例执行结束
+2021-10-31 16:23:14.479 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 0 }条用例，测试用例开始统一断言
+2021-10-31 16:23:14.483 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 16:23:14.484 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 16:23:14.484 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 16:29:09.130 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 16:29:09.133 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 16:29:09.135 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 16:29:10.763 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 16:29:10.763 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 16:29:10.866 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 16:29:24.548 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 16:29:34.666 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ updateDepartment }
+2021-10-31 16:29:34.667 [main-142] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 16:29:46.367 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 结果包含断言字段：研发部门 }
+2021-10-31 16:29:46.379 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 16:29:46.379 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 结果包含断言字段：研发部门 }
+2021-10-31 16:29:46.380 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 16:29:46.381 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 16:29:46.382 [main-147] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ updateDepartment }测试用例执行结束
+2021-10-31 16:29:46.450 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 16:32:14.586 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 16:32:14.589 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 16:32:14.591 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 16:32:16.211 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 16:32:16.212 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 16:32:16.321 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 16:32:29.620 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 16:32:39.728 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ updateDepartment }
+2021-10-31 16:32:39.728 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 16:32:52.997 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 16:32:52.999 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 16:32:53.009 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 16:32:53.011 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 16:32:53.013 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 16:32:53.026 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ updateDepartment }测试用例执行结束
+2021-10-31 16:32:53.172 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 16:32:53.190 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 16:32:53.204 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 16:32:53.204 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 16:33:42.618 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 16:33:42.621 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 16:33:42.622 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 16:33:44.241 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 16:33:44.241 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 16:33:44.342 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 16:33:56.335 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 16:34:06.439 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ searchDepartment }
+2021-10-31 16:34:06.440 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 16:34:17.578 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 16:34:17.583 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 16:34:17.583 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 16:34:17.584 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 16:34:44.671 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 16:34:44.674 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 16:34:44.675 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 16:34:46.294 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 16:34:46.295 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 16:34:46.397 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 16:35:02.608 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 16:35:12.709 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ searchDepartment }
+2021-10-31 16:35:12.710 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 16:35:23.736 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 16:35:23.744 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 16:35:23.744 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 16:35:23.745 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 16:36:53.318 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 16:36:53.321 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 16:36:53.323 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 16:36:54.937 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 16:36:54.937 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 16:36:55.040 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 16:37:08.395 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 16:37:18.499 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ searchDepartment }
+2021-10-31 16:37:18.500 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 16:37:29.580 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 16:37:29.584 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 16:37:29.585 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 16:37:29.585 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 16:38:16.022 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 16:38:16.025 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 16:38:16.026 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 16:38:17.612 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 16:38:17.612 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 16:38:17.714 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 16:38:31.088 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 16:38:41.192 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ searchDepartment }
+2021-10-31 16:38:41.193 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 16:38:52.208 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 16:38:52.212 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 16:38:52.212 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 16:38:52.212 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 16:41:22.437 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 16:41:22.440 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 16:41:22.441 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 16:41:24.053 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 16:41:24.054 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 16:41:24.159 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 16:41:39.020 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 16:41:49.115 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ searchDepartment }
+2021-10-31 16:41:49.116 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 16:42:00.172 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 16:42:00.177 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 16:42:00.177 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 16:42:00.177 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 16:44:02.383 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 16:44:02.387 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 16:44:02.389 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 16:44:04.077 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 16:44:04.077 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 16:44:04.187 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 16:44:18.271 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 16:44:28.372 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ searchDepartment }
+2021-10-31 16:44:28.373 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 16:44:54.830 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 16:44:54.834 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 16:44:54.834 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 16:44:54.834 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 16:47:08.900 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 16:47:08.904 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 16:47:08.905 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 16:47:10.546 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 16:47:10.546 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 16:47:10.648 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 16:47:22.239 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 16:47:32.326 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ searchDepartment }
+2021-10-31 16:47:32.327 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 16:47:45.007 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 集合元素列表大小为：1 }
+2021-10-31 16:47:45.008 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 16:47:45.009 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 集合元素列表大小为：1 }
+2021-10-31 16:47:45.009 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 集合元素列表大小为：1 }
+2021-10-31 16:47:45.010 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 16:47:45.010 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ searchDepartment }测试用例执行结束
+2021-10-31 16:47:45.109 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 16:47:45.125 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 16:47:45.135 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 16:47:45.136 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 16:49:08.907 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 16:49:08.910 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 16:49:08.911 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 16:49:10.531 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 16:49:10.531 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 16:49:10.633 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 16:49:22.245 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 16:49:32.341 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ searchDepartment }
+2021-10-31 16:49:32.342 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 16:49:44.357 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 集合元素列表大小为：1 }
+2021-10-31 16:49:44.359 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 16:49:44.359 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 集合元素列表大小为：1 }
+2021-10-31 16:49:44.360 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 集合元素列表大小为：1 }
+2021-10-31 16:49:44.361 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 16:49:44.362 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 2 }条测试用例开始执行
+2021-10-31 16:49:56.931 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 集合元素列表大小为：1 }
+2021-10-31 16:49:56.931 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 16:49:56.932 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 集合元素列表大小为：1 }
+2021-10-31 16:49:56.932 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 集合元素列表大小为：0 }
+2021-10-31 16:49:56.933 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 16:49:56.934 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ searchDepartment }测试用例执行结束
+2021-10-31 16:49:57.048 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 2 }条用例，测试用例开始统一断言
+2021-10-31 16:54:16.625 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 16:54:16.628 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 16:54:16.630 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 16:54:18.188 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 16:54:18.188 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 16:54:18.292 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 16:54:34.456 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 16:54:44.569 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ searchDepartment }
+2021-10-31 16:54:44.570 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 16:54:49.977 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 集合元素列表大小为：1 }
+2021-10-31 16:54:49.978 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 16:54:49.988 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 集合元素列表大小为：1 }
+2021-10-31 16:54:49.989 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 集合元素列表大小为：1 }
+2021-10-31 16:54:49.990 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 16:54:49.990 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 2 }条测试用例开始执行
+2021-10-31 16:54:55.141 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 集合元素列表大小为：1 }
+2021-10-31 16:54:55.150 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 16:54:55.154 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 集合元素列表大小为：1 }
+2021-10-31 16:54:55.154 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 集合元素列表大小为：0 }
+2021-10-31 16:54:55.169 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 16:54:55.171 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ searchDepartment }测试用例执行结束
+2021-10-31 16:54:55.241 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 2 }条用例，测试用例开始统一断言
+2021-10-31 17:42:22.897 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 17:42:22.901 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 17:42:22.902 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 17:42:24.617 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 17:42:24.617 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 17:42:24.722 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 17:42:36.402 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 17:42:46.493 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ searchDepartment }
+2021-10-31 17:42:46.494 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 17:42:57.087 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 集合元素列表大小为：1 }
+2021-10-31 17:42:57.088 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 17:42:57.089 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 集合元素列表大小为：1 }
+2021-10-31 17:42:57.089 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 集合元素列表大小为：1 }
+2021-10-31 17:42:57.090 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 17:42:57.091 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 2 }条测试用例开始执行
+2021-10-31 17:42:58.470 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 集合元素列表大小为：1 }
+2021-10-31 17:42:58.479 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 17:42:58.479 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 集合元素列表大小为：1 }
+2021-10-31 17:42:58.480 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 集合元素列表大小为：0 }
+2021-10-31 17:42:58.480 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 17:42:58.480 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ searchDepartment }测试用例执行结束
+2021-10-31 17:42:58.562 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 2 }条用例，测试用例开始统一断言
+2021-10-31 17:53:08.222 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 17:53:08.226 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 17:53:08.227 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 17:53:09.874 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 17:53:09.874 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 17:53:09.978 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 17:53:22.560 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 17:53:32.669 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ searchDepartment }
+2021-10-31 17:53:32.670 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 17:53:34.778 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 集合元素列表大小为：1 }
+2021-10-31 17:53:34.779 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 17:53:34.780 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 集合元素列表大小为：1 }
+2021-10-31 17:53:34.780 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 集合元素列表大小为：1 }
+2021-10-31 17:53:34.781 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 17:53:34.782 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 2 }条测试用例开始执行
+2021-10-31 17:53:51.038 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 集合元素列表大小为：0 }
+2021-10-31 17:53:51.039 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 17:53:51.039 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 集合元素列表大小为：0 }
+2021-10-31 17:53:51.040 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 集合元素列表大小为：0 }
+2021-10-31 17:53:51.040 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 17:53:51.040 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ searchDepartment }测试用例执行结束
+2021-10-31 17:53:51.081 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 2 }条用例，测试用例开始统一断言
+2021-10-31 17:53:51.087 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 17:53:51.088 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 17:53:51.088 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 17:55:25.815 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 17:55:25.818 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 17:55:25.819 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 17:55:27.450 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 17:55:27.451 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 17:55:27.560 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 17:55:41.603 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 17:55:51.715 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ updateDepartment }
+2021-10-31 17:55:51.716 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 17:55:54.731 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 17:55:54.732 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 17:55:54.742 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 17:55:54.743 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 结果包含断言字段：测试部门 }
+2021-10-31 17:55:54.744 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 17:55:54.757 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ updateDepartment }测试用例执行结束
+2021-10-31 17:55:54.827 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 17:55:54.835 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 17:55:54.835 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 17:55:54.835 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 17:58:26.108 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 17:58:26.111 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 17:58:26.112 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 17:58:27.751 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 17:58:27.751 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 17:58:27.856 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 17:58:52.263 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 17:59:02.370 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ deleteDepartment }
+2021-10-31 17:59:02.371 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 17:59:19.916 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 集合元素列表大小为：0 }
+2021-10-31 17:59:19.917 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 17:59:19.918 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 集合元素列表大小为：0 }
+2021-10-31 17:59:19.918 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 集合元素列表大小为：0 }
+2021-10-31 17:59:19.920 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 17:59:19.921 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ deleteDepartment }测试用例执行结束
+2021-10-31 17:59:19.959 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 17:59:19.967 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 17:59:19.967 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 17:59:19.967 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 18:29:14.910 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 18:29:14.915 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 18:29:14.916 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 18:29:16.676 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 18:29:16.677 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 18:29:16.787 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 18:29:32.492 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 18:29:42.596 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 18:29:42.597 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 18:29:58.734 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 18:29:58.739 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 18:29:58.739 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 18:29:58.740 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 18:30:27.249 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 18:30:27.253 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 18:30:27.254 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 18:30:28.953 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 18:30:28.954 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 18:30:29.060 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 18:30:42.264 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 18:30:52.363 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 18:30:52.364 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 18:31:08.446 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 18:31:08.450 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 18:31:08.451 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 18:31:08.451 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 18:38:22.474 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 18:38:22.477 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 18:38:22.479 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 18:38:24.081 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 18:38:24.081 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 18:38:24.189 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 18:38:42.921 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 18:38:53.034 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 18:38:53.035 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 18:38:54.796 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 18:38:54.800 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 18:38:54.800 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 18:38:54.800 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 18:40:19.529 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 18:40:19.532 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 18:40:19.533 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 18:40:21.129 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 18:40:21.129 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 18:40:21.232 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 18:40:34.998 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 18:40:45.096 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 18:40:45.097 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 18:40:48.043 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 18:40:48.047 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 18:40:48.057 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 18:40:48.058 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 18:42:25.216 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 18:42:25.220 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 18:42:25.221 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 18:42:26.849 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 18:42:26.849 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 18:42:26.955 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 18:42:40.215 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 18:42:50.329 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 18:42:50.331 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 18:42:52.386 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 18:42:52.393 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 18:42:52.393 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 18:42:52.394 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 18:45:22.045 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 18:45:22.048 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 18:45:22.049 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 18:45:23.640 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 18:45:23.640 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 18:45:23.748 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 18:45:36.907 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 18:45:47.015 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 18:45:47.016 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 18:45:48.505 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 18:45:48.512 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 18:45:48.512 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 18:45:48.512 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 18:51:53.464 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 18:51:53.467 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 18:51:53.468 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 18:51:55.144 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 18:51:55.144 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 18:51:55.249 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 18:52:24.101 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 18:52:34.208 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 18:52:34.209 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 18:52:44.299 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 18:52:44.306 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 18:52:44.306 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 18:52:44.306 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 18:53:15.730 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 18:53:15.733 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 18:53:15.734 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 18:53:17.440 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 18:53:17.440 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 18:53:17.550 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 18:53:32.349 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 18:53:42.448 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 18:53:42.449 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 18:53:43.971 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 18:53:43.975 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 18:53:43.995 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 18:53:43.996 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 18:58:47.427 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 18:58:47.430 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 18:58:47.431 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 18:58:49.052 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 18:58:49.052 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 18:58:49.163 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 18:59:00.717 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 18:59:10.811 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 18:59:10.812 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 18:59:29.034 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 18:59:29.038 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 18:59:29.039 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 18:59:29.039 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 19:00:39.319 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 19:00:39.322 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 19:00:39.323 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 19:00:40.922 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 19:00:40.923 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 19:00:41.027 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 19:00:55.898 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 19:01:06.006 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 19:01:06.008 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 19:01:24.207 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 19:01:24.212 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 19:01:24.212 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 19:01:24.212 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 19:03:15.181 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 19:03:15.184 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 19:03:15.185 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 19:03:16.796 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 19:03:16.796 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 19:03:16.904 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 19:03:30.195 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 19:03:40.301 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 19:03:40.302 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 19:03:57.702 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 19:03:57.708 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 19:03:57.708 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 19:03:57.709 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 19:08:14.382 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 19:08:14.385 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 19:08:14.387 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 19:08:16.013 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 19:08:16.014 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 19:08:16.119 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 19:08:48.886 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 0 }条用例，测试用例开始统一断言
+2021-10-31 19:08:48.896 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 19:08:48.897 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 19:08:48.897 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 19:09:34.606 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 19:09:34.609 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 19:09:34.611 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 19:09:36.236 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 19:09:36.236 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 19:09:36.341 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 19:09:54.662 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 19:10:04.779 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 19:10:04.780 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 19:10:38.041 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 19:10:38.045 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 19:10:38.045 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 19:10:38.045 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 19:11:31.906 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 19:11:31.909 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 19:11:31.910 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 19:11:33.568 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 19:11:33.569 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 19:11:33.674 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 19:11:49.456 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 19:11:59.568 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 19:11:59.569 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 19:12:17.604 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 19:12:17.609 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 19:12:17.609 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 19:12:17.609 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 19:17:27.205 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 19:17:27.209 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 19:17:27.211 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 19:17:28.954 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 19:17:28.954 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 19:17:29.062 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 19:17:49.106 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 0 }条用例，测试用例开始统一断言
+2021-10-31 19:17:49.113 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 19:17:49.114 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 19:17:49.114 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 19:18:14.023 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 19:18:14.027 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 19:18:14.028 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 19:18:15.673 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 19:18:15.673 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 19:18:15.779 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 19:18:28.766 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 19:18:38.864 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 19:18:38.864 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 19:18:55.570 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 19:18:55.576 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 19:18:55.576 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 19:18:55.577 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 19:20:07.605 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 19:20:07.608 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 19:20:07.610 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 19:20:09.278 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 19:20:09.278 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 19:20:09.386 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 19:20:29.661 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 19:20:39.769 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 19:20:39.770 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 19:20:56.406 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 19:20:56.410 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 19:20:56.410 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 19:20:56.411 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 19:23:32.160 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 19:23:32.163 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 19:23:32.164 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 19:23:33.841 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 19:23:33.841 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 19:23:33.946 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 19:23:47.283 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 19:23:57.394 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 19:23:57.395 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 19:24:01.028 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 结果包含断言字段：test }
+2021-10-31 19:24:01.029 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 19:24:01.029 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 结果包含断言字段：test }
+2021-10-31 19:24:01.030 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 结果包含断言字段：DerrickChen }
+2021-10-31 19:24:01.031 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 19:24:01.031 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ addDepartmentMember }测试用例执行结束
+2021-10-31 19:24:01.100 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 19:26:19.906 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 19:26:19.909 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 19:26:19.910 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 19:26:21.539 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 19:26:21.539 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 19:26:21.643 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 19:26:37.266 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 19:26:47.373 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 19:26:47.373 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 19:27:05.585 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 19:27:05.592 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 19:27:05.593 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 19:27:05.594 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 19:27:20.433 [main-53] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目模块{ WeChatContactTest }开始启动执行
+2021-10-31 19:27:20.436 [main-54] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 开始初始化...
+2021-10-31 19:27:20.437 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 19:27:22.044 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 19:27:22.045 [main-62] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载中...
+2021-10-31 19:27:22.154 [main-68] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 项目基础配置加载成功
+2021-10-31 19:27:42.036 [main-78] INFO  com.wechat.pageobject.testcase.WeChatContactTest.init - 初始化结束...
+2021-10-31 19:27:52.140 [main-135] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 当前用例测试执行方法为{ addDepartmentMember }
+2021-10-31 19:27:52.141 [main-141] INFO  com.wechat.pageobject.testcase.WeChatContactTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 19:27:55.853 [main-83] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$5 - 测试用例执行结果为{ 结果包含断言字段：DerrickChenLong }
+2021-10-31 19:27:55.854 [main-116] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 用例开始添加断言内容
+2021-10-31 19:27:55.855 [main-117] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 实际结果为{ 结果包含断言字段：DerrickChenLong }
+2021-10-31 19:27:55.855 [main-118] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 期望结果为{ 结果包含断言字段：DerrickChenLong }
+2021-10-31 19:27:55.856 [main-120] INFO  com.framework.basetest.BaseTestCaseExcutor.lambda$null$4 - 添加断言结束
+2021-10-31 19:27:55.857 [main-146] INFO  com.wechat.pageobject.testcase.WeChatContactTest.startMethod - 方法{ addDepartmentMember }测试用例执行结束
+2021-10-31 19:27:55.901 [main-86] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 项目模块{ WeChatContactTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 19:27:55.917 [main-88] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 统一断言结束
+2021-10-31 19:27:55.918 [main-89] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 开始释放资源
+2021-10-31 19:27:55.918 [main-93] INFO  com.wechat.pageobject.testcase.WeChatContactTest.tearDown - 释放资源结束
+2021-10-31 20:16:12.881 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 20:16:12.884 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 20:16:12.885 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 20:16:14.579 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 20:16:14.580 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 20:16:14.678 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 20:16:25.634 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 20:16:35.726 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 20:16:35.727 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 20:16:35.798 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 20:16:35.804 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 20:16:35.805 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 20:16:35.805 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 20:16:49.580 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 20:16:49.584 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 20:16:49.585 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 20:16:51.202 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 20:16:51.202 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 20:16:51.302 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 20:17:19.392 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 20:17:29.493 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 20:17:29.494 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 20:17:29.560 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 20:17:29.566 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 20:17:29.567 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 20:17:29.567 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 20:17:51.163 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 20:17:51.166 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 20:17:51.167 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 20:17:52.762 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 20:17:52.762 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 20:17:52.868 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 20:18:06.217 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 20:18:16.315 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 20:18:16.316 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 20:18:16.371 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 20:18:16.375 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 20:18:16.375 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 20:18:16.375 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 20:50:50.890 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 20:50:50.893 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 20:50:50.894 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 20:50:52.566 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 20:50:52.567 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 20:50:52.671 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 20:51:12.721 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 0 }条用例，测试用例开始统一断言
+2021-10-31 20:51:12.733 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 20:51:12.733 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 20:51:12.733 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 20:51:43.215 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 20:51:43.218 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 20:51:43.219 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 20:51:44.839 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 20:51:44.840 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 20:51:44.941 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 20:52:04.980 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 0 }条用例，测试用例开始统一断言
+2021-10-31 20:52:04.993 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 20:52:04.993 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 20:52:04.993 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 20:53:11.746 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 20:53:11.749 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 20:53:11.751 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 20:53:13.367 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 20:53:13.368 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 20:53:13.472 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 20:53:33.524 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 0 }条用例，测试用例开始统一断言
+2021-10-31 20:53:33.541 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 20:53:33.541 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 20:53:33.541 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 20:53:53.454 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 20:53:53.458 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 20:53:53.459 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 20:53:55.199 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 20:53:55.199 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 20:53:55.302 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 20:54:16.796 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 20:54:26.885 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 20:54:26.886 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 20:54:26.958 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 20:54:26.965 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 20:54:26.965 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 20:54:26.966 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 20:54:44.275 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 20:54:44.278 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 20:54:44.280 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 20:54:45.913 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 20:54:45.913 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 20:54:46.018 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 20:55:06.071 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 0 }条用例，测试用例开始统一断言
+2021-10-31 20:55:06.087 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 20:55:06.087 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 20:55:06.088 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 20:55:21.775 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 20:55:21.778 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 20:55:21.780 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 20:55:23.415 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 20:55:23.415 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 20:55:23.522 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 20:55:43.568 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 0 }条用例，测试用例开始统一断言
+2021-10-31 20:55:43.579 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 20:55:43.580 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 20:55:43.580 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 20:58:34.318 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 20:58:34.321 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 20:58:34.322 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 20:58:35.973 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 20:58:35.973 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 20:58:36.078 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 20:58:49.730 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 20:58:59.824 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 20:58:59.825 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 20:58:59.885 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 20:58:59.889 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 20:58:59.890 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 20:58:59.890 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 21:00:07.070 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 21:00:07.073 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 21:00:07.074 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 21:00:08.713 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 21:00:08.713 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 21:00:08.812 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 21:00:22.086 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 21:00:32.184 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 21:00:32.184 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 21:00:48.253 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 21:00:48.257 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 21:00:48.258 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 21:00:48.258 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 22:08:59.475 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 22:08:59.478 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 22:08:59.479 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 22:09:01.581 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 22:09:01.581 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 22:09:01.685 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 22:09:21.738 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 0 }条用例，测试用例开始统一断言
+2021-10-31 22:09:21.752 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 22:09:21.752 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 22:09:21.753 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 22:09:46.192 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 22:09:46.195 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 22:09:46.196 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 22:09:48.147 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 22:09:48.147 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 22:09:48.255 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 22:10:05.384 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 22:10:15.481 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 22:10:15.482 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 22:10:30.975 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 22:10:30.980 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 22:10:30.981 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 22:10:30.981 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 22:10:54.349 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 22:10:54.352 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 22:10:54.353 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 22:10:55.961 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 22:10:55.961 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 22:10:56.066 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 22:11:16.115 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 0 }条用例，测试用例开始统一断言
+2021-10-31 22:11:16.127 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 22:11:16.127 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 22:11:16.127 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 22:11:31.389 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 22:11:31.392 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 22:11:31.393 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 22:11:33.010 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 22:11:33.011 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 22:11:33.111 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 22:11:46.386 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 22:11:56.480 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 22:11:56.481 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 22:12:08.715 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 22:12:08.721 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 22:12:08.722 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 22:12:08.723 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 22:42:44.542 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 22:42:44.547 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 22:42:44.548 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 22:42:46.229 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 22:42:46.230 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 22:42:46.334 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 22:42:58.014 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 22:43:08.106 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 22:43:08.107 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 22:43:21.002 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 22:43:21.006 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 22:43:21.006 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 22:43:21.007 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 22:46:29.319 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 22:46:29.323 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 22:46:29.325 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 22:46:31.351 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 22:46:31.351 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 22:46:31.470 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 22:46:48.098 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 22:46:58.207 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 22:46:58.208 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 22:47:00.666 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 22:47:00.670 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 22:47:00.671 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 22:47:00.682 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 22:48:01.270 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 22:48:01.274 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 22:48:01.276 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 22:48:02.869 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 22:48:02.870 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 22:48:02.967 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 22:48:14.958 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 22:48:25.057 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 22:48:25.058 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 22:48:53.329 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 22:48:53.345 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 22:48:53.345 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 22:48:53.345 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 22:52:35.487 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 22:52:35.490 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 22:52:35.491 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 22:52:37.174 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 22:52:37.174 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 22:52:37.276 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 22:52:50.350 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 22:53:00.455 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 22:53:00.456 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 22:53:12.290 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 22:53:12.295 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 22:53:12.295 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 22:53:12.296 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 22:54:01.941 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 22:54:01.945 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 22:54:01.946 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 22:54:03.658 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 22:54:03.659 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 22:54:03.765 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 22:54:17.648 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 22:54:27.748 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 22:54:27.749 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 22:54:40.238 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 22:54:40.246 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 22:54:40.247 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 22:54:40.248 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 22:57:05.391 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 22:57:05.394 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 22:57:05.396 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 22:57:07.047 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 22:57:07.047 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 22:57:07.149 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 22:57:20.134 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 22:57:30.229 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 22:57:30.230 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 22:57:42.824 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 22:57:42.829 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 22:57:42.829 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 22:57:42.830 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 22:59:51.708 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 22:59:51.711 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 22:59:51.712 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 22:59:53.408 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 22:59:53.409 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 22:59:53.514 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 23:00:05.249 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 23:00:15.350 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 23:00:15.351 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 23:00:27.927 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 23:00:27.931 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 23:00:27.932 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 23:00:27.932 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 23:01:13.933 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 23:01:13.936 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 23:01:13.937 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 23:01:15.654 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 23:01:15.655 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 23:01:15.758 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 23:01:28.934 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 23:01:39.035 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 23:01:39.035 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 23:01:51.374 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 23:01:51.379 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 23:01:51.380 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 23:01:51.380 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 23:07:25.035 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 23:07:25.038 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 23:07:25.039 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 23:07:26.770 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 23:07:26.771 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 23:07:26.872 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 23:07:40.786 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 23:07:50.876 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 23:07:50.876 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 23:08:03.143 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 23:08:03.147 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 23:08:03.147 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 23:08:03.147 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 23:20:28.744 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 23:20:28.747 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 23:20:28.748 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 23:20:30.520 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 23:20:30.520 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 23:20:30.627 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 23:20:43.932 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 23:20:54.034 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 23:20:54.035 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 23:21:07.130 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 23:21:07.134 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 23:21:07.134 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 23:21:07.134 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 23:21:28.089 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 23:21:28.092 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 23:21:28.094 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 23:21:29.806 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 23:21:29.807 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 23:21:29.933 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 23:21:49.450 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 23:21:59.540 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 23:21:59.541 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 23:22:12.645 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 23:22:12.651 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 23:22:12.652 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 23:22:12.652 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 23:26:01.119 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 23:26:01.123 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 23:26:01.124 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 23:26:02.943 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 23:26:02.943 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 23:26:03.067 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 23:26:23.121 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 0 }条用例，测试用例开始统一断言
+2021-10-31 23:26:23.135 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 23:26:23.136 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 23:26:23.136 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 23:26:52.904 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 23:26:52.908 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 23:26:52.909 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 23:26:54.659 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 23:26:54.659 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 23:26:54.764 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 23:27:10.428 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 23:27:20.529 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 23:27:20.530 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 23:27:33.294 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 23:27:33.301 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 23:27:33.301 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 23:27:33.301 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 23:27:59.295 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 23:27:59.298 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 23:27:59.299 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 23:28:00.983 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 23:28:00.983 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 23:28:01.087 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 23:28:14.399 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 23:28:24.486 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 23:28:24.487 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 23:28:37.287 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 23:28:37.291 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 23:28:37.291 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 23:28:37.292 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
+2021-10-31 23:29:34.109 [main-52] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目模块{ WeChatAnnouncementTest }开始启动执行
+2021-10-31 23:29:34.113 [main-53] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 开始初始化...
+2021-10-31 23:29:34.114 [main-70] INFO  com.framework.basepage.BaseBrowser.<init> - 浏览器启动中...
+2021-10-31 23:29:35.745 [main-103] INFO  com.framework.basedriver.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-10-31 23:29:35.746 [main-61] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载中...
+2021-10-31 23:29:35.850 [main-67] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 项目基础配置加载成功
+2021-10-31 23:29:49.098 [main-77] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.init - 初始化结束...
+2021-10-31 23:29:59.207 [main-134] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.startMethod - 当前用例测试执行方法为{ addAnnouncement }
+2021-10-31 23:29:59.208 [main-140] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.lambda$null$0 - 第{ 1 }条测试用例开始执行
+2021-10-31 23:30:15.970 [main-85] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 项目模块{ WeChatAnnouncementTest }共执行{ 1 }条用例，测试用例开始统一断言
+2021-10-31 23:30:15.974 [main-87] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 统一断言结束
+2021-10-31 23:30:15.974 [main-88] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 开始释放资源
+2021-10-31 23:30:15.974 [main-92] INFO  com.wechat.pageobject.testcase.WeChatAnnouncementTest.tearDown - 释放资源结束
