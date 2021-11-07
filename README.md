@@ -64,3 +64,4 @@
 （3）设计通讯录模块用例参数化配置【src/test/resources/data/WeChatContactTestData.yaml】
 
 （4）执行命令，生成报告【 #mvn clean test -Dtest=WeChatContactTest】
+

@@ -57,16 +57,24 @@ public class CeshirenPOCodeSearchPageTest extends POBasePage {
         /**
          * 读取配置文件
          */
-        ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
-        baseTestCaseExcutor = mapper.readValue(
-                new File("src/test/resources/model/" + getClassName() + ".yaml"),
-                BaseTestCaseExcutor.class
-        );
+        extracted();
 
         /**
          * 读取用例执行的环境变量
          */
         env = PropertiesReader.getKey("pro.env");
+    }
+
+    /**
+     * 读取配置文件
+     * @throws IOException
+     */
+    private static void extracted() throws IOException {
+        ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
+        baseTestCaseExcutor = mapper.readValue(
+                new File("src/test/resources/model/" + getClassName() + ".yaml"),
+                BaseTestCaseExcutor.class
+        );
     }
 
     @AfterAll
